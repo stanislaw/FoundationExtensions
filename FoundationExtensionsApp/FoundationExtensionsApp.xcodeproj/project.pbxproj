@@ -13,7 +13,6 @@
 		8626A15F175EAE9D00D32F79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8626A15E175EAE9D00D32F79 /* Foundation.framework */; };
 		8626A162175EAE9D00D32F79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8626A161175EAE9D00D32F79 /* main.m */; };
 		8626A166175EAE9D00D32F79 /* FoundationExtensionsApp.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8626A165175EAE9D00D32F79 /* FoundationExtensionsApp.1 */; };
-		8626A17D175EAF2600D32F79 /* NSRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 8626A16F175EAF2600D32F79 /* NSRange.m */; };
 		8626A17E175EAF2600D32F79 /* Core.m in Sources */ = {isa = PBXBuildFile; fileRef = 8626A172175EAF2600D32F79 /* Core.m */; };
 		8626A17F175EAF2600D32F79 /* Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 8626A175175EAF2600D32F79 /* Blocks.m */; };
 		8626A180175EAF2600D32F79 /* Concatenation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8626A178175EAF2600D32F79 /* Concatenation.m */; };
@@ -48,8 +47,6 @@
 		8626A161175EAE9D00D32F79 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8626A164175EAE9D00D32F79 /* FoundationExtensionsApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FoundationExtensionsApp-Prefix.pch"; sourceTree = "<group>"; };
 		8626A165175EAE9D00D32F79 /* FoundationExtensionsApp.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = FoundationExtensionsApp.1; sourceTree = "<group>"; };
-		8626A16E175EAF2600D32F79 /* NSRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSRange.h; sourceTree = "<group>"; };
-		8626A16F175EAF2600D32F79 /* NSRange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSRange.m; sourceTree = "<group>"; };
 		8626A171175EAF2600D32F79 /* Core.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Core.h; sourceTree = "<group>"; };
 		8626A172175EAF2600D32F79 /* Core.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Core.m; sourceTree = "<group>"; };
 		8626A174175EAF2600D32F79 /* Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Blocks.h; sourceTree = "<group>"; };
@@ -62,7 +59,6 @@
 		8626A17C175EAF2600D32F79 /* RegularExpressions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegularExpressions.m; sourceTree = "<group>"; };
 		8626A183175EB01C00D32F79 /* NSObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSObject.h; sourceTree = "<group>"; };
 		8626A184175EB05000D32F79 /* NSArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSArray.h; sourceTree = "<group>"; };
-		8626A185175EB06100D32F79 /* Foundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation.h; sourceTree = "<group>"; };
 		8626A186175EB06D00D32F79 /* NSString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSString.h; sourceTree = "<group>"; };
 		86C7CB9F175EB3AA00FE5CEB /* Querying.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Querying.h; path = ../../../../../../stanislaw/Work/Pods/FoundationExtensions/FoundationExtensions/NSArray/Querying.h; sourceTree = "<group>"; };
 		86C7CBA0175EB3AA00FE5CEB /* Querying.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Querying.m; path = ../../../../../../stanislaw/Work/Pods/FoundationExtensions/FoundationExtensions/NSArray/Querying.m; sourceTree = "<group>"; };
@@ -70,6 +66,7 @@
 		86C7CBA4175EB4FE00FE5CEB /* MethodSwizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MethodSwizzling.h; path = ../../../../../../stanislaw/Work/Pods/FoundationExtensions/FoundationExtensions/NSObject/MethodSwizzling.h; sourceTree = "<group>"; };
 		86C7CBA5175EB4FE00FE5CEB /* MethodSwizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MethodSwizzling.m; path = ../../../../../../stanislaw/Work/Pods/FoundationExtensions/FoundationExtensions/NSObject/MethodSwizzling.m; sourceTree = "<group>"; };
 		86C7CBAA175EB78B00FE5CEB /* NSString_Extensions_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSString_Extensions_Tests.m; sourceTree = "<group>"; };
+		86C7CBAC175EC76A00FE5CEB /* NSRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSRange.h; path = ../../../../../stanislaw/Work/Pods/FoundationExtensions/FoundationExtensions/NSRange.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,26 +144,16 @@
 		8626A16C175EAF2600D32F79 /* FoundationExtensions */ = {
 			isa = PBXGroup;
 			children = (
-				8626A16D175EAF2600D32F79 /* Foundation */,
+				86C7CBAC175EC76A00FE5CEB /* NSRange.h */,
 				8626A170175EAF2600D32F79 /* NSArray */,
 				8626A173175EAF2600D32F79 /* NSObject */,
 				8626A176175EAF2600D32F79 /* NSString */,
 				8626A183175EB01C00D32F79 /* NSObject.h */,
 				8626A184175EB05000D32F79 /* NSArray.h */,
-				8626A185175EB06100D32F79 /* Foundation.h */,
 				8626A186175EB06D00D32F79 /* NSString.h */,
 			);
 			name = FoundationExtensions;
 			path = ../FoundationExtensions;
-			sourceTree = "<group>";
-		};
-		8626A16D175EAF2600D32F79 /* Foundation */ = {
-			isa = PBXGroup;
-			children = (
-				8626A16E175EAF2600D32F79 /* NSRange.h */,
-				8626A16F175EAF2600D32F79 /* NSRange.m */,
-			);
-			path = Foundation;
 			sourceTree = "<group>";
 		};
 		8626A170175EAF2600D32F79 /* NSArray */ = {
@@ -256,7 +243,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8626A162175EAE9D00D32F79 /* main.m in Sources */,
-				8626A17D175EAF2600D32F79 /* NSRange.m in Sources */,
 				8626A17E175EAF2600D32F79 /* Core.m in Sources */,
 				8626A17F175EAF2600D32F79 /* Blocks.m in Sources */,
 				8626A180175EAF2600D32F79 /* Concatenation.m in Sources */,

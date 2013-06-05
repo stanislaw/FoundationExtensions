@@ -1,5 +1,5 @@
 #import "TestHelpers.h"
-#import "Foundation.h"
+#import "NSRange.h"
 
 @interface NSRange_Extensions_Tests : SenTestCase
 @end
