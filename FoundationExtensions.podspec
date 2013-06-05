@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "FoundationExtensions"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "Collection of extensions for Foundation framework."
   # s.description  = <<-DESC
   #                   An optional longer description of FoundationExtensions
@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
 
   s.author       = { "Stanislaw Pankevich" => "s.pankevich@gmail.com" }
 
-  s.source       = { :git => "https://github.com/stanislaw/FoundationExtensions.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/stanislaw/FoundationExtensions.git", :tag => s.version.to_s }
 
   s.ios.deployment_target = '5.0'
   s.osx.deployment_target = '10.7'
