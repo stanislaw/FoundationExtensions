@@ -8,4 +8,4 @@
 
 #import <Foundation/Foundation.h>
 
-#import "Foundation/NSRange_Extensions.h"
+#import "Foundation/NSRange.h"
