@@ -44,7 +44,7 @@ This design implies the three possible ways of including `FoundationExtensions` 
 you import the "extension" pack
 
 ```objective-c
-#import <UIKitExtensions/NSObject/Blocks.h>
+#import <FoundationExtensions/NSObject/Blocks.h>
 ```
 
 Just browse through the `FoundationExtensions/` folder contents - it is pretty clear, and it is cool.
