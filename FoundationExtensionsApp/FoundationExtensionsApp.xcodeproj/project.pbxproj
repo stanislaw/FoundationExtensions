@@ -18,6 +18,7 @@
 		8626A180175EAF2600D32F79 /* Concatenation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8626A178175EAF2600D32F79 /* Concatenation.m */; };
 		8626A181175EAF2600D32F79 /* Core.m in Sources */ = {isa = PBXBuildFile; fileRef = 8626A17A175EAF2600D32F79 /* Core.m */; };
 		8626A182175EAF2600D32F79 /* RegularExpressions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8626A17C175EAF2600D32F79 /* RegularExpressions.m */; };
+		864B2433175F321F001DED90 /* FoundationExtensions_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 864B2432175F321F001DED90 /* FoundationExtensions_Tests.m */; };
 		86C7CBA1175EB3AA00FE5CEB /* Querying.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C7CBA0175EB3AA00FE5CEB /* Querying.m */; };
 		86C7CBA3175EB44D00FE5CEB /* NSObject_Extensions_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C7CBA2175EB44D00FE5CEB /* NSObject_Extensions_Tests.m */; };
 		86C7CBA6175EB4FE00FE5CEB /* MethodSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C7CBA5175EB4FE00FE5CEB /* MethodSwizzling.m */; };
@@ -60,6 +61,9 @@
 		8626A183175EB01C00D32F79 /* NSObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSObject.h; sourceTree = "<group>"; };
 		8626A184175EB05000D32F79 /* NSArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSArray.h; sourceTree = "<group>"; };
 		8626A186175EB06D00D32F79 /* NSString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSString.h; sourceTree = "<group>"; };
+		864B2430175F316A001DED90 /* NSURLError.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NSURLError.h; path = ../../../../../stanislaw/Work/Pods/FoundationExtensions/FoundationExtensions/NSURLError.h; sourceTree = "<group>"; };
+		864B2431175F31E3001DED90 /* FoundationsExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FoundationsExtensions.h; path = ../../../../../stanislaw/Work/Pods/FoundationExtensions/FoundationExtensions/FoundationsExtensions.h; sourceTree = "<group>"; };
+		864B2432175F321F001DED90 /* FoundationExtensions_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoundationExtensions_Tests.m; sourceTree = "<group>"; };
 		86C7CB9F175EB3AA00FE5CEB /* Querying.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Querying.h; path = ../../../../../../stanislaw/Work/Pods/FoundationExtensions/FoundationExtensions/NSArray/Querying.h; sourceTree = "<group>"; };
 		86C7CBA0175EB3AA00FE5CEB /* Querying.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Querying.m; path = ../../../../../../stanislaw/Work/Pods/FoundationExtensions/FoundationExtensions/NSArray/Querying.m; sourceTree = "<group>"; };
 		86C7CBA2175EB44D00FE5CEB /* NSObject_Extensions_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSObject_Extensions_Tests.m; sourceTree = "<group>"; };
@@ -89,6 +93,7 @@
 				86203623175EB1AB007B9755 /* NSRange_Extensions_Tests.m */,
 				86C7CBA2175EB44D00FE5CEB /* NSObject_Extensions_Tests.m */,
 				86C7CBAA175EB78B00FE5CEB /* NSString_Extensions_Tests.m */,
+				864B2432175F321F001DED90 /* FoundationExtensions_Tests.m */,
 			);
 			name = Tests;
 			path = ../../../../../stanislaw/Work/Pods/FoundationExtensions/Tests;
@@ -151,6 +156,8 @@
 				8626A183175EB01C00D32F79 /* NSObject.h */,
 				8626A184175EB05000D32F79 /* NSArray.h */,
 				8626A186175EB06D00D32F79 /* NSString.h */,
+				864B2430175F316A001DED90 /* NSURLError.h */,
+				864B2431175F31E3001DED90 /* FoundationsExtensions.h */,
 			);
 			name = FoundationExtensions;
 			path = ../FoundationExtensions;
@@ -254,6 +261,7 @@
 				86C7CBA3175EB44D00FE5CEB /* NSObject_Extensions_Tests.m in Sources */,
 				86C7CBA6175EB4FE00FE5CEB /* MethodSwizzling.m in Sources */,
 				86C7CBAB175EB78B00FE5CEB /* NSString_Extensions_Tests.m in Sources */,
+				864B2433175F321F001DED90 /* FoundationExtensions_Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
