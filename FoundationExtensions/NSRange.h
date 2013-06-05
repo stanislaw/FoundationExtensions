@@ -1,6 +1,6 @@
 #import <Foundation/Foundation.h>
 
-NSRange const NullRange = {0, 0};
+static NSRange const NSRangeZero = {0, 0};
 
 static inline NSUInteger NSRangeLastIndex(NSRange range) {
     if (range.length == 0) return NSNotFound;
@@ -13,3 +13,4 @@ static inline NSRange NSMathUnionRange(NSRange range1, NSRange range2) {
     return NSUnionRange(range1, range2);
 
 }
+

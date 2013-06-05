@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "FoundationExtensions"
-  s.version      = "0.0.5"
+  s.version      = "0.0.6"
   s.summary      = "Collection of extensions for Foundation framework."
   # s.description  = <<-DESC
   #                   An optional longer description of FoundationExtensions
@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '5.0'
   s.osx.deployment_target = '10.7'
 
-  s.source_files = 'FoundationExtensions/Foundation/*.{h,m}'
+  s.source_files = 'FoundationExtensions/**/*.{h,m}'
   # s.header_dir = 'Headers'
   s.header_mappings_dir = 'FoundationExtensions'
 
