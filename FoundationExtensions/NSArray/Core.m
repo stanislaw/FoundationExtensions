@@ -6,7 +6,7 @@
 //  Copyright (c) 2013 IProjecting. All rights reserved.
 //
 
-#import "NSArray+Extensions.h"
+#import "Core.h"
 
 @implementation NSArray (Extensions)
 
@@ -20,18 +20,6 @@
 
 - (BOOL)isEmpty {    
     return self.count == 0;
-}
-
-- (NSArray *)map:(id(^)(id element))block {
-    __block NSArray *mapArray = [NSArray array];
-
-    [self enumerateObjectsUsingBlock:^(id element, NSUInteger idx, BOOL *stop) {
-        id modifiedElement = block(element);
-        
-        mapArray = [mapArray arrayByAddingObject:modifiedElement];
-    }];
-
-    return mapArray;
 }
 
 @end

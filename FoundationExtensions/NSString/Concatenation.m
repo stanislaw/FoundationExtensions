@@ -6,7 +6,7 @@
 //  Copyright (c) 2013 IProjecting. All rights reserved.
 //
 
-#import "NSString+Concatenation.h"
+#import "Concatenation.h"
 
 @implementation NSString (Concatenation)
 

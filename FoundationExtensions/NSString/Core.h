@@ -12,11 +12,7 @@ extern NSString * const NON_BREAKING_SPACE_SYMBOL;
 
 BOOL NSStringIsStringAndNotEmpty(NSString *string);
 
-NSString * NSStringURLWithoutSignature(NSString *string);
-NSString * NSStringURLWithHTMLTagsRipped(NSString *string);
-NSString * NSStringHTMLToSimpleMarkup (NSString *string);
-
-@interface NSString (Extensions)
+@interface NSString (Core)
 
 + (id)stringWithFormat:(NSString *)format array:(NSArray *)arguments;
 

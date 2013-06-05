@@ -9,5 +9,5 @@
 #import <Foundation/Foundation.h>
 
 @interface NSString (RegularExpressions)
-- (BOOL)matches:(NSString *)regexp;
+- (BOOL)matches:(NSString *)regularExpressionString;
 @end

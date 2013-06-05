@@ -8,15 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
-//id objectOrNil(id object);
-
 // http://stackoverflow.com/a/14730061/598057
 dispatch_block_t recursiveBlock(void (^block)(dispatch_block_t recurse));
 
-// http://cocoadev.com/wiki/MethodSwizzling
-void class_swizzleMethods(Class c, SEL orig, SEL new);
-
-@interface NSObject (Extensions)
+@interface NSObject (Blocks)
 
 - (id)initWithBlock:(void(^)(id))block;
 - (id)modifyWithBlock:(void(^)(id))block;
