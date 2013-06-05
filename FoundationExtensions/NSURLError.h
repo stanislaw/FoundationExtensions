@@ -84,6 +84,6 @@ static inline NSString * NSStringForNSURLError(int status) {
     return [NSString stringWithFormat:@"NSURLError unknown code: %d", status];
 }
 
-static inline NSString * NSLogNSURLError(int status) {
+static inline void NSLogNSURLError(int status) {
     NSLog(@"%@", NSStringForNSURLError(status));
 }
