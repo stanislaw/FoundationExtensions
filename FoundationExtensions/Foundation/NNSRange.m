@@ -6,7 +6,7 @@
 //  Copyright (c) 2013 IProjecting. All rights reserved.
 //
 
-#import "NSRange.h"
+#import "NNSRange.h"
 
 NSRange const NullRange = {0, 0};
 
