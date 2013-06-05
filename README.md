@@ -6,8 +6,7 @@
 
 Here is a quick overview of features that set `FoundationExtensions` apart from many other similar collections on Github:
 
-* `FoundationExtensions` borrows some well known project structure conventions from the Ruby world: it is designed completely in a modular fashion, pretty much like Ruby on Rails core framework [Active Support](https://github.com/rails/rails/tree/master/activesupport) or [Ruby facets](https://github.com/rubyworks/facets). Here is the typical
-import headers from the project that uses to work with `FoundationExtensions`:
+* `FoundationExtensions` borrows some well known project structure conventions from the Ruby world: it is designed completely in a modular fashion, pretty much like Ruby on Rails core framework [Active Support](https://github.com/rails/rails/tree/master/activesupport) or [Ruby facets](https://github.com/rubyworks/facets). Here are the typical import headers from the project that uses to work with `FoundationExtensions`:
 
 ```objective-c
 #import <FoundationExtensions/NSObject/Blocks.h>
