@@ -14,7 +14,7 @@ dispatch_block_t recursiveBlock(void (^block)(dispatch_block_t recurse)) {
 
 @implementation NSObject (Blocks)
 
-- (id)initWithBlock:(void(^)(id))block {
+- (instancetype)initWithBlock:(void(^)(id))block {
     self = [self init];
 
     if (self) {
@@ -24,7 +24,7 @@ dispatch_block_t recursiveBlock(void (^block)(dispatch_block_t recurse)) {
     return self;
 }
 
-- (id)modifyWithBlock:(void(^)(id))block {
+- (instancetype)performBlock:(void(^)(id))block {
     if (block) block(self);
 
     return self;

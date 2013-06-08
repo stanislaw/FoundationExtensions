@@ -13,7 +13,7 @@ dispatch_block_t recursiveBlock(void (^block)(dispatch_block_t recurse));
 
 @interface NSObject (Blocks)
 
-- (id)initWithBlock:(void(^)(id))block;
-- (id)modifyWithBlock:(void(^)(id))block;
+- (instancetype)initWithBlock:(void(^)(id))block;
+- (instancetype)performBlock:(void(^)(id))block;
 
 @end
