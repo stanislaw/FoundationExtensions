@@ -10,6 +10,6 @@
 
 @interface NSArray (Querying)
 
-- (NSArray *)map:(id(^)(id element))block;
+- (NSArray *)mapObjectsUsingBlock:(id(^)(id element, NSUInteger idx, BOOL *stop))block;
 
 @end

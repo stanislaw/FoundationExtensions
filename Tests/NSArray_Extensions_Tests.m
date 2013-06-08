@@ -39,7 +39,7 @@
 
     array = @[@"s", @"s", @"s"];
 
-    mapArray = [array map:^id(NSString * element) {
+    mapArray = [array mapObjectsUsingBlock:^id(NSString * element, NSUInteger idx, BOOL *stop) {
         return [element stringByAppendingString:@"sss"];
     }];
 

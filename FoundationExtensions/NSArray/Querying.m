@@ -10,11 +10,11 @@
 
 @implementation NSArray (Querying)
 
-- (NSArray *)map:(id(^)(id element))block {
+- (NSArray *)mapObjectsUsingBlock:(id(^)(id element, NSUInteger idx, BOOL *stop))block {
     __block NSArray *mapArray = [NSArray array];
 
     [self enumerateObjectsUsingBlock:^(id element, NSUInteger idx, BOOL *stop) {
-        id modifiedElement = block(element);
+        id modifiedElement = block(element, idx, stop);
 
         mapArray = [mapArray arrayByAddingObject:modifiedElement];
     }];
