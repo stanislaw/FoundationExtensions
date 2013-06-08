@@ -7,9 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B440EDD538E4B87A4E72914 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EDA1728C0E243569C2E1056 /* libPods.a */; };
 		86203620175EB0AE007B9755 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8620361F175EB0AE007B9755 /* SenTestingKit.framework */; };
-		86203624175EB1AB007B9755 /* NSArray_Extensions_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86203622175EB1AB007B9755 /* NSArray_Extensions_Tests.m */; };
-		86203625175EB1AB007B9755 /* NSRange_Extensions_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86203623175EB1AB007B9755 /* NSRange_Extensions_Tests.m */; };
 		8626A15F175EAE9D00D32F79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8626A15E175EAE9D00D32F79 /* Foundation.framework */; };
 		8626A162175EAE9D00D32F79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8626A161175EAE9D00D32F79 /* main.m */; };
 		8626A166175EAE9D00D32F79 /* FoundationExtensionsApp.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8626A165175EAE9D00D32F79 /* FoundationExtensionsApp.1 */; };
@@ -18,11 +17,11 @@
 		8626A180175EAF2600D32F79 /* Concatenation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8626A178175EAF2600D32F79 /* Concatenation.m */; };
 		8626A181175EAF2600D32F79 /* Core.m in Sources */ = {isa = PBXBuildFile; fileRef = 8626A17A175EAF2600D32F79 /* Core.m */; };
 		8626A182175EAF2600D32F79 /* RegularExpressions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8626A17C175EAF2600D32F79 /* RegularExpressions.m */; };
-		864B2433175F321F001DED90 /* FoundationExtensions_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 864B2432175F321F001DED90 /* FoundationExtensions_Tests.m */; };
+		8692A4EC1763F51B00BE8DB4 /* Core_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8692A4EB1763F51B00BE8DB4 /* Core_Tests.m */; };
+		8692A4EE1763F53700BE8DB4 /* Querying_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8692A4ED1763F53700BE8DB4 /* Querying_Tests.m */; };
+		8692A4F11763F5B600BE8DB4 /* NSRange_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8692A4F01763F5B600BE8DB4 /* NSRange_Tests.m */; };
 		86C7CBA1175EB3AA00FE5CEB /* Querying.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C7CBA0175EB3AA00FE5CEB /* Querying.m */; };
-		86C7CBA3175EB44D00FE5CEB /* NSObject_Extensions_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C7CBA2175EB44D00FE5CEB /* NSObject_Extensions_Tests.m */; };
 		86C7CBA6175EB4FE00FE5CEB /* MethodSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C7CBA5175EB4FE00FE5CEB /* MethodSwizzling.m */; };
-		86C7CBAB175EB78B00FE5CEB /* NSString_Extensions_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C7CBAA175EB78B00FE5CEB /* NSString_Extensions_Tests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,9 +38,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0EDA1728C0E243569C2E1056 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		342EEC436F084ADFB4C23D95 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 		8620361F175EB0AE007B9755 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		86203622175EB1AB007B9755 /* NSArray_Extensions_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSArray_Extensions_Tests.m; sourceTree = "<group>"; };
-		86203623175EB1AB007B9755 /* NSRange_Extensions_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSRange_Extensions_Tests.m; sourceTree = "<group>"; };
 		86203626175EB1E0007B9755 /* TestHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestHelpers.h; path = ../../../../../../stanislaw/Work/Pods/FoundationExtensions/FoundationExtensionsApp/FoundationExtensionsApp/TestHelpers.h; sourceTree = "<group>"; };
 		8626A15B175EAE9D00D32F79 /* FoundationExtensionsApp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FoundationExtensionsApp; sourceTree = BUILT_PRODUCTS_DIR; };
 		8626A15E175EAE9D00D32F79 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -63,13 +62,13 @@
 		8626A186175EB06D00D32F79 /* NSString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSString.h; sourceTree = "<group>"; };
 		864B2430175F316A001DED90 /* NSURLError.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NSURLError.h; path = ../../../../../stanislaw/Work/Pods/FoundationExtensions/FoundationExtensions/NSURLError.h; sourceTree = "<group>"; };
 		864B2431175F31E3001DED90 /* FoundationsExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FoundationsExtensions.h; path = ../../../../../stanislaw/Work/Pods/FoundationExtensions/FoundationExtensions/FoundationsExtensions.h; sourceTree = "<group>"; };
-		864B2432175F321F001DED90 /* FoundationExtensions_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoundationExtensions_Tests.m; sourceTree = "<group>"; };
+		8692A4EB1763F51B00BE8DB4 /* Core_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Core_Tests.m; sourceTree = "<group>"; };
+		8692A4ED1763F53700BE8DB4 /* Querying_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Querying_Tests.m; sourceTree = "<group>"; };
+		8692A4F01763F5B600BE8DB4 /* NSRange_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSRange_Tests.m; path = NSRange/NSRange_Tests.m; sourceTree = "<group>"; };
 		86C7CB9F175EB3AA00FE5CEB /* Querying.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Querying.h; path = ../../../../../../stanislaw/Work/Pods/FoundationExtensions/FoundationExtensions/NSArray/Querying.h; sourceTree = "<group>"; };
 		86C7CBA0175EB3AA00FE5CEB /* Querying.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Querying.m; path = ../../../../../../stanislaw/Work/Pods/FoundationExtensions/FoundationExtensions/NSArray/Querying.m; sourceTree = "<group>"; };
-		86C7CBA2175EB44D00FE5CEB /* NSObject_Extensions_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSObject_Extensions_Tests.m; sourceTree = "<group>"; };
 		86C7CBA4175EB4FE00FE5CEB /* MethodSwizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MethodSwizzling.h; path = ../../../../../../stanislaw/Work/Pods/FoundationExtensions/FoundationExtensions/NSObject/MethodSwizzling.h; sourceTree = "<group>"; };
 		86C7CBA5175EB4FE00FE5CEB /* MethodSwizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MethodSwizzling.m; path = ../../../../../../stanislaw/Work/Pods/FoundationExtensions/FoundationExtensions/NSObject/MethodSwizzling.m; sourceTree = "<group>"; };
-		86C7CBAA175EB78B00FE5CEB /* NSString_Extensions_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSString_Extensions_Tests.m; sourceTree = "<group>"; };
 		86C7CBAC175EC76A00FE5CEB /* NSRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSRange.h; path = ../../../../../stanislaw/Work/Pods/FoundationExtensions/FoundationExtensions/NSRange.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,6 +79,7 @@
 			files = (
 				86203620175EB0AE007B9755 /* SenTestingKit.framework in Frameworks */,
 				8626A15F175EAE9D00D32F79 /* Foundation.framework in Frameworks */,
+				2B440EDD538E4B87A4E72914 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,11 +89,8 @@
 		86203621175EB1AB007B9755 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				86203622175EB1AB007B9755 /* NSArray_Extensions_Tests.m */,
-				86203623175EB1AB007B9755 /* NSRange_Extensions_Tests.m */,
-				86C7CBA2175EB44D00FE5CEB /* NSObject_Extensions_Tests.m */,
-				86C7CBAA175EB78B00FE5CEB /* NSString_Extensions_Tests.m */,
-				864B2432175F321F001DED90 /* FoundationExtensions_Tests.m */,
+				8692A4EF1763F59E00BE8DB4 /* NSRange */,
+				8692A4EA1763F51B00BE8DB4 /* NSArray */,
 			);
 			name = Tests;
 			path = ../../../../../stanislaw/Work/Pods/FoundationExtensions/Tests;
@@ -107,6 +104,7 @@
 				8626A15D175EAE9D00D32F79 /* Frameworks */,
 				8626A15C175EAE9D00D32F79 /* Products */,
 				86203621175EB1AB007B9755 /* Tests */,
+				342EEC436F084ADFB4C23D95 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +121,7 @@
 			children = (
 				8620361F175EB0AE007B9755 /* SenTestingKit.framework */,
 				8626A15E175EAE9D00D32F79 /* Foundation.framework */,
+				0EDA1728C0E243569C2E1056 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -198,6 +197,23 @@
 			path = NSString;
 			sourceTree = "<group>";
 		};
+		8692A4EA1763F51B00BE8DB4 /* NSArray */ = {
+			isa = PBXGroup;
+			children = (
+				8692A4EB1763F51B00BE8DB4 /* Core_Tests.m */,
+				8692A4ED1763F53700BE8DB4 /* Querying_Tests.m */,
+			);
+			path = NSArray;
+			sourceTree = "<group>";
+		};
+		8692A4EF1763F59E00BE8DB4 /* NSRange */ = {
+			isa = PBXGroup;
+			children = (
+				8692A4F01763F5B600BE8DB4 /* NSRange_Tests.m */,
+			);
+			name = NSRange;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -205,9 +221,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8626A169175EAE9D00D32F79 /* Build configuration list for PBXNativeTarget "FoundationExtensionsApp" */;
 			buildPhases = (
+				4E2B3A707BB648D5A6052D6A /* Check Pods Manifest.lock */,
 				8626A157175EAE9D00D32F79 /* Sources */,
 				8626A158175EAE9D00D32F79 /* Frameworks */,
 				8626A159175EAE9D00D32F79 /* CopyFiles */,
+				BEEB33DA49FB4680B1389B39 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -244,6 +262,37 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4E2B3A707BB648D5A6052D6A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+		};
+		BEEB33DA49FB4680B1389B39 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8626A157175EAE9D00D32F79 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -255,13 +304,11 @@
 				8626A180175EAF2600D32F79 /* Concatenation.m in Sources */,
 				8626A181175EAF2600D32F79 /* Core.m in Sources */,
 				8626A182175EAF2600D32F79 /* RegularExpressions.m in Sources */,
-				86203624175EB1AB007B9755 /* NSArray_Extensions_Tests.m in Sources */,
-				86203625175EB1AB007B9755 /* NSRange_Extensions_Tests.m in Sources */,
 				86C7CBA1175EB3AA00FE5CEB /* Querying.m in Sources */,
-				86C7CBA3175EB44D00FE5CEB /* NSObject_Extensions_Tests.m in Sources */,
 				86C7CBA6175EB4FE00FE5CEB /* MethodSwizzling.m in Sources */,
-				86C7CBAB175EB78B00FE5CEB /* NSString_Extensions_Tests.m in Sources */,
-				864B2433175F321F001DED90 /* FoundationExtensions_Tests.m in Sources */,
+				8692A4EC1763F51B00BE8DB4 /* Core_Tests.m in Sources */,
+				8692A4EE1763F53700BE8DB4 /* Querying_Tests.m in Sources */,
+				8692A4F11763F5B600BE8DB4 /* NSRange_Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,6 +376,7 @@
 		};
 		8626A16A175EAE9D00D32F79 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 342EEC436F084ADFB4C23D95 /* Pods.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -342,6 +390,7 @@
 		};
 		8626A16B175EAE9D00D32F79 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 342EEC436F084ADFB4C23D95 /* Pods.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
