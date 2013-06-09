@@ -9,4 +9,3 @@
 #import <Foundation/Foundation.h>
 
 #import "NSObject/Blocks.h"
-#import "NSObject/MethodSwizzling.h"

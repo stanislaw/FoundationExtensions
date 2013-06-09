@@ -11,15 +11,21 @@
 @implementation NSArray (Querying)
 
 - (NSArray *)mapObjectsUsingBlock:(id(^)(id element, NSUInteger idx, BOOL *stop))block {
-    __block NSArray *mapArray = [NSArray array];
-
+    NSMutableArray *array = [NSMutableArray arrayWithCapacity:self.count];
+    
     [self enumerateObjectsUsingBlock:^(id element, NSUInteger idx, BOOL *stop) {
-        id modifiedElement = block(element, idx, stop);
+        id mappedElement = block(element, idx, stop);
 
-        mapArray = [mapArray arrayByAddingObject:modifiedElement];
+        [array addObject:mappedElement];
     }];
 
-    return mapArray;
+    return array;
 }
 
+- (NSArray *)objectsPassingTest:(BOOL(^)(id obj, NSUInteger idx, BOOL *stop))predicate {
+    NSIndexSet *indexesOfObjectsPassingTest = [self indexesOfObjectsPassingTest:predicate];
+
+    return [self objectsAtIndexes:indexesOfObjectsPassingTest];
+}
+                                       
 @end
