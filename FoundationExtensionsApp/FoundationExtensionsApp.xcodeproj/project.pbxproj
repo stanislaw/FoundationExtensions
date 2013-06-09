@@ -21,7 +21,6 @@
 		8692A4EE1763F53700BE8DB4 /* Querying_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8692A4ED1763F53700BE8DB4 /* Querying_Tests.m */; };
 		8692A4F11763F5B600BE8DB4 /* NSRange_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8692A4F01763F5B600BE8DB4 /* NSRange_Tests.m */; };
 		86C7CBA1175EB3AA00FE5CEB /* Querying.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C7CBA0175EB3AA00FE5CEB /* Querying.m */; };
-		86C7CBA6175EB4FE00FE5CEB /* MethodSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C7CBA5175EB4FE00FE5CEB /* MethodSwizzling.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -67,8 +66,6 @@
 		8692A4F01763F5B600BE8DB4 /* NSRange_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSRange_Tests.m; path = NSRange/NSRange_Tests.m; sourceTree = "<group>"; };
 		86C7CB9F175EB3AA00FE5CEB /* Querying.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Querying.h; path = ../../../../../../stanislaw/Work/Pods/FoundationExtensions/FoundationExtensions/NSArray/Querying.h; sourceTree = "<group>"; };
 		86C7CBA0175EB3AA00FE5CEB /* Querying.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Querying.m; path = ../../../../../../stanislaw/Work/Pods/FoundationExtensions/FoundationExtensions/NSArray/Querying.m; sourceTree = "<group>"; };
-		86C7CBA4175EB4FE00FE5CEB /* MethodSwizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MethodSwizzling.h; path = ../../../../../../stanislaw/Work/Pods/FoundationExtensions/FoundationExtensions/NSObject/MethodSwizzling.h; sourceTree = "<group>"; };
-		86C7CBA5175EB4FE00FE5CEB /* MethodSwizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MethodSwizzling.m; path = ../../../../../../stanislaw/Work/Pods/FoundationExtensions/FoundationExtensions/NSObject/MethodSwizzling.m; sourceTree = "<group>"; };
 		86C7CBAC175EC76A00FE5CEB /* NSRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSRange.h; path = ../../../../../stanislaw/Work/Pods/FoundationExtensions/FoundationExtensions/NSRange.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -178,8 +175,6 @@
 			children = (
 				8626A174175EAF2600D32F79 /* Blocks.h */,
 				8626A175175EAF2600D32F79 /* Blocks.m */,
-				86C7CBA4175EB4FE00FE5CEB /* MethodSwizzling.h */,
-				86C7CBA5175EB4FE00FE5CEB /* MethodSwizzling.m */,
 			);
 			path = NSObject;
 			sourceTree = "<group>";
@@ -305,7 +300,6 @@
 				8626A181175EAF2600D32F79 /* Core.m in Sources */,
 				8626A182175EAF2600D32F79 /* RegularExpressions.m in Sources */,
 				86C7CBA1175EB3AA00FE5CEB /* Querying.m in Sources */,
-				86C7CBA6175EB4FE00FE5CEB /* MethodSwizzling.m in Sources */,
 				8692A4EC1763F51B00BE8DB4 /* Core_Tests.m in Sources */,
 				8692A4EE1763F53700BE8DB4 /* Querying_Tests.m in Sources */,
 				8692A4F11763F5B600BE8DB4 /* NSRange_Tests.m in Sources */,

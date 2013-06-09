@@ -8,7 +8,7 @@
 
 #import "Core.h"
 
-@implementation NSArray (Extensions)
+@implementation NSArray (Core)
 
 - (id)firstObject {
     return self.count > 0 ? [self objectAtIndex:0] : nil;
