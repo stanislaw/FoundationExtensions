@@ -8,6 +8,12 @@
 
 #import "Core.h"
 
+BOOL NSArrayIsArrayAndNotEmpty(id object) {
+    if (object == nil || [object isKindOfClass:[NSArray class]] == NO) return NO;
+
+    return ((NSArray *)object).isNotEmpty;
+}
+
 @implementation NSArray (Core)
 
 - (id)firstObject {
@@ -20,6 +26,10 @@
 
 - (BOOL)isEmpty {    
     return self.count == 0;
+}
+
+- (BOOL)isNotEmpty {
+    return self.count > 0;
 }
 
 @end

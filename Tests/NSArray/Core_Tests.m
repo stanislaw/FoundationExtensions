@@ -5,6 +5,14 @@
 SPEC_BEGIN(NSArray_Core_Spec)
 
 describe(@"NSArray/Core", ^{
+    describe(@"NSArrayIsArrayAndNotEmpty", ^{
+        specify(^{
+            [[theValue(NSArrayIsArrayAndNotEmpty(nil)) should] beNo];
+            [[theValue(NSArrayIsArrayAndNotEmpty(@[])) should] beNo];
+            [[theValue(NSArrayIsArrayAndNotEmpty(@[@1])) should] beYes];
+        });
+    });
+
     describe(@"-[NSArray lastIndex]", ^{
         it(@"", ^{
             NSArray *array;
@@ -32,6 +40,14 @@ describe(@"NSArray/Core", ^{
 
             array = @[@1, @2, @3];
             [[array.firstObject should] equal:@(1)];
+        });
+    });
+
+    describe(@"-[NSArray isNotEmpty]", ^{
+        it(@"", ^{
+            [[theValue([@[] isNotEmpty]) should] beNo];
+
+            [[theValue(([@[@1, @2, @3] isNotEmpty])) should] beYes];
         });
     });
 });
