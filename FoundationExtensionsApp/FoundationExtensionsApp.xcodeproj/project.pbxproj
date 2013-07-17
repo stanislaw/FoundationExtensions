@@ -20,6 +20,10 @@
 		8692A4EC1763F51B00BE8DB4 /* Core_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8692A4EB1763F51B00BE8DB4 /* Core_Tests.m */; };
 		8692A4EE1763F53700BE8DB4 /* Querying_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8692A4ED1763F53700BE8DB4 /* Querying_Tests.m */; };
 		8692A4F11763F5B600BE8DB4 /* NSRange_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8692A4F01763F5B600BE8DB4 /* NSRange_Tests.m */; };
+		869ED87B17963FEB002FD80E /* Inversion.m in Sources */ = {isa = PBXBuildFile; fileRef = 869ED87A17963FEB002FD80E /* Inversion.m */; };
+		869ED87E179645B9002FD80E /* Flattening.m in Sources */ = {isa = PBXBuildFile; fileRef = 869ED87D179645B9002FD80E /* Flattening.m */; };
+		869ED88117964A35002FD80E /* NSDictionary_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 869ED88017964A35002FD80E /* NSDictionary_Tests.m */; };
+		869ED8841796534E002FD80E /* Flattening_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 869ED8831796534E002FD80E /* Flattening_Tests.m */; };
 		86C7CBA1175EB3AA00FE5CEB /* Querying.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C7CBA0175EB3AA00FE5CEB /* Querying.m */; };
 /* End PBXBuildFile section */
 
@@ -65,6 +69,13 @@
 		8692A4ED1763F53700BE8DB4 /* Querying_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Querying_Tests.m; sourceTree = "<group>"; };
 		8692A4F01763F5B600BE8DB4 /* NSRange_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSRange_Tests.m; path = NSRange/NSRange_Tests.m; sourceTree = "<group>"; };
 		8692A4F21764049800BE8DB4 /* NSRunLoop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSRunLoop.h; sourceTree = "<group>"; };
+		869ED87917963FEB002FD80E /* Inversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Inversion.h; path = NSDictionary/Inversion.h; sourceTree = "<group>"; };
+		869ED87A17963FEB002FD80E /* Inversion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Inversion.m; path = NSDictionary/Inversion.m; sourceTree = "<group>"; };
+		869ED87C179645B9002FD80E /* Flattening.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flattening.h; sourceTree = "<group>"; };
+		869ED87D179645B9002FD80E /* Flattening.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Flattening.m; sourceTree = "<group>"; };
+		869ED88017964A35002FD80E /* NSDictionary_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSDictionary_Tests.m; path = NSDictionary/NSDictionary_Tests.m; sourceTree = "<group>"; };
+		869ED88217964A5D002FD80E /* NSDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDictionary.h; sourceTree = "<group>"; };
+		869ED8831796534E002FD80E /* Flattening_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Flattening_Tests.m; sourceTree = "<group>"; };
 		86C7CB9F175EB3AA00FE5CEB /* Querying.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Querying.h; path = ../../../../../../stanislaw/Work/Pods/FoundationExtensions/FoundationExtensions/NSArray/Querying.h; sourceTree = "<group>"; };
 		86C7CBA0175EB3AA00FE5CEB /* Querying.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Querying.m; path = ../../../../../../stanislaw/Work/Pods/FoundationExtensions/FoundationExtensions/NSArray/Querying.m; sourceTree = "<group>"; };
 		86C7CBAC175EC76A00FE5CEB /* NSRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSRange.h; path = ../../../../../stanislaw/Work/Pods/FoundationExtensions/FoundationExtensions/NSRange.h; sourceTree = "<group>"; };
@@ -87,6 +98,7 @@
 		86203621175EB1AB007B9755 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				869ED87F17964A1C002FD80E /* NSDictionary */,
 				8692A4EF1763F59E00BE8DB4 /* NSRange */,
 				8692A4EA1763F51B00BE8DB4 /* NSArray */,
 			);
@@ -146,6 +158,7 @@
 		8626A16C175EAF2600D32F79 /* FoundationExtensions */ = {
 			isa = PBXGroup;
 			children = (
+				869ED87817963FAE002FD80E /* NSDictionary */,
 				86C7CBAC175EC76A00FE5CEB /* NSRange.h */,
 				8626A170175EAF2600D32F79 /* NSArray */,
 				8626A173175EAF2600D32F79 /* NSObject */,
@@ -156,6 +169,7 @@
 				864B2430175F316A001DED90 /* NSURLError.h */,
 				864B2431175F31E3001DED90 /* FoundationsExtensions.h */,
 				8692A4F21764049800BE8DB4 /* NSRunLoop.h */,
+				869ED88217964A5D002FD80E /* NSDictionary.h */,
 			);
 			name = FoundationExtensions;
 			path = ../FoundationExtensions;
@@ -168,6 +182,8 @@
 				8626A172175EAF2600D32F79 /* Core.m */,
 				86C7CB9F175EB3AA00FE5CEB /* Querying.h */,
 				86C7CBA0175EB3AA00FE5CEB /* Querying.m */,
+				869ED87C179645B9002FD80E /* Flattening.h */,
+				869ED87D179645B9002FD80E /* Flattening.m */,
 			);
 			path = NSArray;
 			sourceTree = "<group>";
@@ -199,6 +215,7 @@
 			children = (
 				8692A4EB1763F51B00BE8DB4 /* Core_Tests.m */,
 				8692A4ED1763F53700BE8DB4 /* Querying_Tests.m */,
+				869ED8831796534E002FD80E /* Flattening_Tests.m */,
 			);
 			path = NSArray;
 			sourceTree = "<group>";
@@ -209,6 +226,23 @@
 				8692A4F01763F5B600BE8DB4 /* NSRange_Tests.m */,
 			);
 			name = NSRange;
+			sourceTree = "<group>";
+		};
+		869ED87817963FAE002FD80E /* NSDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				869ED87917963FEB002FD80E /* Inversion.h */,
+				869ED87A17963FEB002FD80E /* Inversion.m */,
+			);
+			name = NSDictionary;
+			sourceTree = "<group>";
+		};
+		869ED87F17964A1C002FD80E /* NSDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				869ED88017964A35002FD80E /* NSDictionary_Tests.m */,
+			);
+			name = NSDictionary;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -305,6 +339,10 @@
 				8692A4EC1763F51B00BE8DB4 /* Core_Tests.m in Sources */,
 				8692A4EE1763F53700BE8DB4 /* Querying_Tests.m in Sources */,
 				8692A4F11763F5B600BE8DB4 /* NSRange_Tests.m in Sources */,
+				869ED87B17963FEB002FD80E /* Inversion.m in Sources */,
+				869ED87E179645B9002FD80E /* Flattening.m in Sources */,
+				869ED88117964A35002FD80E /* NSDictionary_Tests.m in Sources */,
+				869ED8841796534E002FD80E /* Flattening_Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,7 +378,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
+				SDKROOT = macosx10.7;
 			};
 			name = Debug;
 		};
@@ -366,7 +404,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
-				SDKROOT = macosx;
+				SDKROOT = macosx10.7;
 			};
 			name = Release;
 		};
@@ -381,6 +419,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FoundationExtensionsApp/FoundationExtensionsApp-Prefix.pch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.7;
 			};
 			name = Debug;
 		};
@@ -395,6 +434,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FoundationExtensionsApp/FoundationExtensionsApp-Prefix.pch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.7;
 			};
 			name = Release;
 		};

@@ -10,3 +10,4 @@
 
 #import "NSArray/Core.h"
 #import "NSArray/Querying.h"
+#import "NSArray/Flattening.h"
