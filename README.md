@@ -54,3 +54,21 @@ Just browse through the `FoundationExtensions/` folder contents - it is pretty c
 The project is in a setup phase. If you liked the idea, feel free to suggest your extensions that you use in your daily programming routine - I will be happy to merge any code that address the scope of this general purpose extensions framework.
 
 More documentation is coming.
+
+## Installation
+
+The recommended way is to install via Cocoapods:
+
+Add into your Podfile:
+
+```ruby
+pod 'FoundationExtensions', :git => 'https://github.com/stanislaw/FoundationExtensions'
+```
+
+And run 
+
+```
+pod update
+```
+
+or you can just clone `FoundationExtensions` and add `FoundationExtensions/` folder to your project (though author have not performed any test for if the paths like `FoundationsExtensions/NSObject/Blocks.h` would be resolved correctly).
