@@ -71,4 +71,4 @@ And run
 pod update
 ```
 
-or you can just clone `FoundationExtensions` and add `FoundationExtensions/` folder to your project (though author have not performed any test for if the paths like `FoundationsExtensions/NSObject/Blocks.h` would be resolved correctly).
+or you can just clone `FoundationExtensions` and add `FoundationExtensions/` folder to your project (though author have not performed any tests to check if the import paths like `FoundationsExtensions/NSObject/Blocks.h` would be resolved correctly without the magic power of Cocoapods).
