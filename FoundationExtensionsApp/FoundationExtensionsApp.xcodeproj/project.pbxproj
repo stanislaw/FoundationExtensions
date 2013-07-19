@@ -17,6 +17,8 @@
 		8626A180175EAF2600D32F79 /* Concatenation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8626A178175EAF2600D32F79 /* Concatenation.m */; };
 		8626A181175EAF2600D32F79 /* Core.m in Sources */ = {isa = PBXBuildFile; fileRef = 8626A17A175EAF2600D32F79 /* Core.m */; };
 		8626A182175EAF2600D32F79 /* RegularExpressions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8626A17C175EAF2600D32F79 /* RegularExpressions.m */; };
+		863DDEED17991B7A00427706 /* Mapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 863DDEEC17991B7A00427706 /* Mapping.m */; };
+		863DDEEF17991BCB00427706 /* Mapping_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 863DDEEE17991BCB00427706 /* Mapping_Tests.m */; };
 		8692A4EC1763F51B00BE8DB4 /* Core_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8692A4EB1763F51B00BE8DB4 /* Core_Tests.m */; };
 		8692A4EE1763F53700BE8DB4 /* Querying_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8692A4ED1763F53700BE8DB4 /* Querying_Tests.m */; };
 		8692A4F11763F5B600BE8DB4 /* NSRange_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8692A4F01763F5B600BE8DB4 /* NSRange_Tests.m */; };
@@ -63,6 +65,9 @@
 		8626A183175EB01C00D32F79 /* NSObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSObject.h; sourceTree = "<group>"; };
 		8626A184175EB05000D32F79 /* NSArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSArray.h; sourceTree = "<group>"; };
 		8626A186175EB06D00D32F79 /* NSString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSString.h; sourceTree = "<group>"; };
+		863DDEEB17991B7A00427706 /* Mapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mapping.h; sourceTree = "<group>"; };
+		863DDEEC17991B7A00427706 /* Mapping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mapping.m; sourceTree = "<group>"; };
+		863DDEEE17991BCB00427706 /* Mapping_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mapping_Tests.m; sourceTree = "<group>"; };
 		864B2430175F316A001DED90 /* NSURLError.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NSURLError.h; path = ../../../../../stanislaw/Work/Pods/FoundationExtensions/FoundationExtensions/NSURLError.h; sourceTree = "<group>"; };
 		864B2431175F31E3001DED90 /* FoundationsExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FoundationsExtensions.h; path = ../../../../../stanislaw/Work/Pods/FoundationExtensions/FoundationExtensions/FoundationsExtensions.h; sourceTree = "<group>"; };
 		8692A4EB1763F51B00BE8DB4 /* Core_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Core_Tests.m; sourceTree = "<group>"; };
@@ -184,6 +189,8 @@
 				86C7CBA0175EB3AA00FE5CEB /* Querying.m */,
 				869ED87C179645B9002FD80E /* Flattening.h */,
 				869ED87D179645B9002FD80E /* Flattening.m */,
+				863DDEEB17991B7A00427706 /* Mapping.h */,
+				863DDEEC17991B7A00427706 /* Mapping.m */,
 			);
 			path = NSArray;
 			sourceTree = "<group>";
@@ -216,6 +223,7 @@
 				8692A4EB1763F51B00BE8DB4 /* Core_Tests.m */,
 				8692A4ED1763F53700BE8DB4 /* Querying_Tests.m */,
 				869ED8831796534E002FD80E /* Flattening_Tests.m */,
+				863DDEEE17991BCB00427706 /* Mapping_Tests.m */,
 			);
 			path = NSArray;
 			sourceTree = "<group>";
@@ -343,6 +351,8 @@
 				869ED87E179645B9002FD80E /* Flattening.m in Sources */,
 				869ED88117964A35002FD80E /* NSDictionary_Tests.m in Sources */,
 				869ED8841796534E002FD80E /* Flattening_Tests.m in Sources */,
+				863DDEED17991B7A00427706 /* Mapping.m in Sources */,
+				863DDEEF17991BCB00427706 /* Mapping_Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

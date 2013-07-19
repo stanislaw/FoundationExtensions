@@ -9,5 +9,6 @@
 #import <Foundation/Foundation.h>
 
 #import "NSArray/Core.h"
-#import "NSArray/Querying.h"
 #import "NSArray/Flattening.h"
+#import "NSArray/Mapping.h"
+#import "NSArray/Querying.h"

@@ -10,18 +10,6 @@
 
 @implementation NSArray (Querying)
 
-- (NSArray *)mapObjectsUsingBlock:(id(^)(id element, NSUInteger idx, BOOL *stop))block {
-    NSMutableArray *array = [NSMutableArray arrayWithCapacity:self.count];
-    
-    [self enumerateObjectsUsingBlock:^(id element, NSUInteger idx, BOOL *stop) {
-        id mappedElement = block(element, idx, stop);
-
-        [array addObject:mappedElement];
-    }];
-
-    return array;
-}
-
 - (NSArray *)objectsPassingTest:(BOOL(^)(id obj, NSUInteger idx, BOOL *stop))predicate {
     NSIndexSet *indexesOfObjectsPassingTest = [self indexesOfObjectsPassingTest:predicate];
 
