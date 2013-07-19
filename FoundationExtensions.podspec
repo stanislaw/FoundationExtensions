@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "FoundationExtensions"
-  s.version      = "0.0.11"
+  s.version      = "0.0.12"
   s.summary      = "Collection of extensions for Foundation framework."
   # s.description  = <<-DESC
   #                   An optional longer description of FoundationExtensions
