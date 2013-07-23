@@ -15,5 +15,18 @@
 
     return [self objectsAtIndexes:indexesOfObjectsPassingTest];
 }
-                                       
+
+- (id)objectPassingTest:(BOOL(^)(id obj, NSUInteger idx, BOOL *stop))predicate {
+    __block id object;
+
+    [self enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
+        if (predicate(obj, idx, stop)) {
+            *stop = YES;
+            object = obj;
+        }
+    }];
+
+    return object;
+}
+
 @end

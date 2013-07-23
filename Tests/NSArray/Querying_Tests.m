@@ -19,6 +19,24 @@ describe(@"NSArray/Querying", ^{
             [[filteredArray.lastObject should] equal:@(1)];
         });
     });
+
+    describe(@"-[NSArray objectPassingTest:]", ^{
+        it(@"", ^{
+            NSArray *array = @[@(1), @(2), @(3)];
+
+            [[[array objectPassingTest:^BOOL(id obj, NSUInteger idx, BOOL *stop) {
+                return [obj isEqual:@(1)];
+            }] should] equal:@(1)];
+
+            [[[array objectPassingTest:^BOOL(id obj, NSUInteger idx, BOOL *stop) {
+                return [obj isEqual:@(1)] == NO;
+            }] should] equal:@(2)];
+
+            [[[array objectPassingTest:^BOOL(id obj, NSUInteger idx, BOOL *stop) {
+                return [obj isEqual:@(4)];
+            }] should] beNil];
+        });
+    });
 });
 
 SPEC_END

@@ -11,5 +11,6 @@
 @interface NSArray (Querying)
 
 - (NSArray *)objectsPassingTest:(BOOL(^)(id obj, NSUInteger idx, BOOL *stop))predicate;
+- (id)objectPassingTest:(BOOL(^)(id obj, NSUInteger idx, BOOL *stop))predicate;
 
 @end
