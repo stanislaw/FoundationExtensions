@@ -19,6 +19,8 @@
 		8626A182175EAF2600D32F79 /* RegularExpressions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8626A17C175EAF2600D32F79 /* RegularExpressions.m */; };
 		863DDEED17991B7A00427706 /* Mapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 863DDEEC17991B7A00427706 /* Mapping.m */; };
 		863DDEEF17991BCB00427706 /* Mapping_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 863DDEEE17991BCB00427706 /* Mapping_Tests.m */; };
+		8664A69E17B3D5AD002BC71B /* Capitalization.m in Sources */ = {isa = PBXBuildFile; fileRef = 8664A69D17B3D5AD002BC71B /* Capitalization.m */; };
+		8664A6A117B3D642002BC71B /* Capitalization_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8664A6A017B3D642002BC71B /* Capitalization_Tests.m */; };
 		8692A4EC1763F51B00BE8DB4 /* Core_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8692A4EB1763F51B00BE8DB4 /* Core_Tests.m */; };
 		8692A4EE1763F53700BE8DB4 /* Querying_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8692A4ED1763F53700BE8DB4 /* Querying_Tests.m */; };
 		8692A4F11763F5B600BE8DB4 /* NSRange_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8692A4F01763F5B600BE8DB4 /* NSRange_Tests.m */; };
@@ -70,6 +72,9 @@
 		863DDEEE17991BCB00427706 /* Mapping_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mapping_Tests.m; sourceTree = "<group>"; };
 		864B2430175F316A001DED90 /* NSURLError.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NSURLError.h; path = ../../../../../stanislaw/Work/Pods/FoundationExtensions/FoundationExtensions/NSURLError.h; sourceTree = "<group>"; };
 		864B2431175F31E3001DED90 /* FoundationsExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FoundationsExtensions.h; path = ../../../../../stanislaw/Work/Pods/FoundationExtensions/FoundationExtensions/FoundationsExtensions.h; sourceTree = "<group>"; };
+		8664A69C17B3D5AD002BC71B /* Capitalization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Capitalization.h; sourceTree = "<group>"; };
+		8664A69D17B3D5AD002BC71B /* Capitalization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Capitalization.m; sourceTree = "<group>"; };
+		8664A6A017B3D642002BC71B /* Capitalization_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Capitalization_Tests.m; path = NSString/Capitalization_Tests.m; sourceTree = "<group>"; };
 		8692A4EB1763F51B00BE8DB4 /* Core_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Core_Tests.m; sourceTree = "<group>"; };
 		8692A4ED1763F53700BE8DB4 /* Querying_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Querying_Tests.m; sourceTree = "<group>"; };
 		8692A4F01763F5B600BE8DB4 /* NSRange_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSRange_Tests.m; path = NSRange/NSRange_Tests.m; sourceTree = "<group>"; };
@@ -103,6 +108,7 @@
 		86203621175EB1AB007B9755 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				8664A69F17B3D622002BC71B /* NSString */,
 				869ED87F17964A1C002FD80E /* NSDictionary */,
 				8692A4EF1763F59E00BE8DB4 /* NSRange */,
 				8692A4EA1763F51B00BE8DB4 /* NSArray */,
@@ -213,8 +219,18 @@
 				8626A17A175EAF2600D32F79 /* Core.m */,
 				8626A17B175EAF2600D32F79 /* RegularExpressions.h */,
 				8626A17C175EAF2600D32F79 /* RegularExpressions.m */,
+				8664A69C17B3D5AD002BC71B /* Capitalization.h */,
+				8664A69D17B3D5AD002BC71B /* Capitalization.m */,
 			);
 			path = NSString;
+			sourceTree = "<group>";
+		};
+		8664A69F17B3D622002BC71B /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				8664A6A017B3D642002BC71B /* Capitalization_Tests.m */,
+			);
+			name = NSString;
 			sourceTree = "<group>";
 		};
 		8692A4EA1763F51B00BE8DB4 /* NSArray */ = {
@@ -353,6 +369,8 @@
 				869ED8841796534E002FD80E /* Flattening_Tests.m in Sources */,
 				863DDEED17991B7A00427706 /* Mapping.m in Sources */,
 				863DDEEF17991BCB00427706 /* Mapping_Tests.m in Sources */,
+				8664A69E17B3D5AD002BC71B /* Capitalization.m in Sources */,
+				8664A6A117B3D642002BC71B /* Capitalization_Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

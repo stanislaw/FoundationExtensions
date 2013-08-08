@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
+#import "NSString/Capitalization.h"
 #import "NSString/Concatenation.h"
 #import "NSString/Core.h"
 #import "NSString/RegularExpressions.h"
