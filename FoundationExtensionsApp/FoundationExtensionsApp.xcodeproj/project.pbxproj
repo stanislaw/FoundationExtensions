@@ -21,6 +21,8 @@
 		863DDEEF17991BCB00427706 /* Mapping_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 863DDEEE17991BCB00427706 /* Mapping_Tests.m */; };
 		8664A69E17B3D5AD002BC71B /* Capitalization.m in Sources */ = {isa = PBXBuildFile; fileRef = 8664A69D17B3D5AD002BC71B /* Capitalization.m */; };
 		8664A6A117B3D642002BC71B /* Capitalization_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8664A6A017B3D642002BC71B /* Capitalization_Tests.m */; };
+		8664A6A617B3D867002BC71B /* Core.m in Sources */ = {isa = PBXBuildFile; fileRef = 8664A6A517B3D867002BC71B /* Core.m */; };
+		8664A6A917B3D8A8002BC71B /* Core_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8664A6A817B3D8A8002BC71B /* Core_Tests.m */; };
 		8692A4EC1763F51B00BE8DB4 /* Core_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8692A4EB1763F51B00BE8DB4 /* Core_Tests.m */; };
 		8692A4EE1763F53700BE8DB4 /* Querying_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8692A4ED1763F53700BE8DB4 /* Querying_Tests.m */; };
 		8692A4F11763F5B600BE8DB4 /* NSRange_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8692A4F01763F5B600BE8DB4 /* NSRange_Tests.m */; };
@@ -75,6 +77,10 @@
 		8664A69C17B3D5AD002BC71B /* Capitalization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Capitalization.h; sourceTree = "<group>"; };
 		8664A69D17B3D5AD002BC71B /* Capitalization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Capitalization.m; sourceTree = "<group>"; };
 		8664A6A017B3D642002BC71B /* Capitalization_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Capitalization_Tests.m; path = NSString/Capitalization_Tests.m; sourceTree = "<group>"; };
+		8664A6A317B3D83B002BC71B /* NSOrderedSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSOrderedSet.h; sourceTree = "<group>"; };
+		8664A6A417B3D867002BC71B /* Core.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Core.h; path = NSOrderedSet/Core.h; sourceTree = "<group>"; };
+		8664A6A517B3D867002BC71B /* Core.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Core.m; path = NSOrderedSet/Core.m; sourceTree = "<group>"; };
+		8664A6A817B3D8A8002BC71B /* Core_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Core_Tests.m; path = NSOrderedSet/Core_Tests.m; sourceTree = "<group>"; };
 		8692A4EB1763F51B00BE8DB4 /* Core_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Core_Tests.m; sourceTree = "<group>"; };
 		8692A4ED1763F53700BE8DB4 /* Querying_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Querying_Tests.m; sourceTree = "<group>"; };
 		8692A4F01763F5B600BE8DB4 /* NSRange_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSRange_Tests.m; path = NSRange/NSRange_Tests.m; sourceTree = "<group>"; };
@@ -108,6 +114,7 @@
 		86203621175EB1AB007B9755 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				8664A6A717B3D890002BC71B /* NSOrderedSet */,
 				8664A69F17B3D622002BC71B /* NSString */,
 				869ED87F17964A1C002FD80E /* NSDictionary */,
 				8692A4EF1763F59E00BE8DB4 /* NSRange */,
@@ -169,6 +176,7 @@
 		8626A16C175EAF2600D32F79 /* FoundationExtensions */ = {
 			isa = PBXGroup;
 			children = (
+				8664A6A217B3D81A002BC71B /* NSOrderedSet */,
 				869ED87817963FAE002FD80E /* NSDictionary */,
 				86C7CBAC175EC76A00FE5CEB /* NSRange.h */,
 				8626A170175EAF2600D32F79 /* NSArray */,
@@ -181,6 +189,7 @@
 				864B2431175F31E3001DED90 /* FoundationsExtensions.h */,
 				8692A4F21764049800BE8DB4 /* NSRunLoop.h */,
 				869ED88217964A5D002FD80E /* NSDictionary.h */,
+				8664A6A317B3D83B002BC71B /* NSOrderedSet.h */,
 			);
 			name = FoundationExtensions;
 			path = ../FoundationExtensions;
@@ -231,6 +240,23 @@
 				8664A6A017B3D642002BC71B /* Capitalization_Tests.m */,
 			);
 			name = NSString;
+			sourceTree = "<group>";
+		};
+		8664A6A217B3D81A002BC71B /* NSOrderedSet */ = {
+			isa = PBXGroup;
+			children = (
+				8664A6A417B3D867002BC71B /* Core.h */,
+				8664A6A517B3D867002BC71B /* Core.m */,
+			);
+			name = NSOrderedSet;
+			sourceTree = "<group>";
+		};
+		8664A6A717B3D890002BC71B /* NSOrderedSet */ = {
+			isa = PBXGroup;
+			children = (
+				8664A6A817B3D8A8002BC71B /* Core_Tests.m */,
+			);
+			name = NSOrderedSet;
 			sourceTree = "<group>";
 		};
 		8692A4EA1763F51B00BE8DB4 /* NSArray */ = {
@@ -371,6 +397,8 @@
 				863DDEEF17991BCB00427706 /* Mapping_Tests.m in Sources */,
 				8664A69E17B3D5AD002BC71B /* Capitalization.m in Sources */,
 				8664A6A117B3D642002BC71B /* Capitalization_Tests.m in Sources */,
+				8664A6A617B3D867002BC71B /* Core.m in Sources */,
+				8664A6A917B3D8A8002BC71B /* Core_Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
