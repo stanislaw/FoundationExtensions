@@ -6,82 +6,132 @@
 //  Copyright (c) 2013 Stanislaw Pankevich. All rights reserved.
 //
 
-static inline NSString * NSStringForNSURLError(int status) {
-    switch (status) {
+static inline NSString * NSStringForNSURLError(NSError *error) {
+    NSString *string;
+
+    switch (error.code) {
         case NSURLErrorCancelled:
-            return [NSString stringWithFormat:@"NSURLErrorCancelled: %d", NSURLErrorCancelled];
+            string = @"NSURLErrorCancelled";
+
             break;
+
         case NSURLErrorBadURL:
-            return [NSString stringWithFormat:@"NSURLErrorBadURL: %d", NSURLErrorBadURL];
+            string = @"NSURLErrorBadURL";
+
             break;
+
         case NSURLErrorTimedOut:
-            return [NSString stringWithFormat:@"NSURLErrorTimedOut: %d", NSURLErrorTimedOut];
+            string = @"NSURLErrorTimedOut";
+
             break;
+
         case NSURLErrorUnsupportedURL:
-            return [NSString stringWithFormat:@"NSURLErrorUnsupportedURL: %d", NSURLErrorUnsupportedURL];
+            string = @"NSURLErrorUnsupportedURL";
+
             break;
+
         case NSURLErrorCannotFindHost:
-            return [NSString stringWithFormat:@"NSURLErrorCannotFindHost: %d", NSURLErrorCannotFindHost];
+            string = @"NSURLErrorCannotFindHost";
+
             break;
+
         case NSURLErrorCannotConnectToHost:
-            return [NSString stringWithFormat:@"NSURLErrorCannotConnectToHost: %d", NSURLErrorCannotConnectToHost];
+            string = @"NSURLErrorCannotConnectToHost";
+
             break;
+
         case NSURLErrorNetworkConnectionLost:
-            return [NSString stringWithFormat:@"NSURLErrorNetworkConnectionLost: %d", NSURLErrorNetworkConnectionLost];
+            string = @"NSURLErrorNetworkConnectionLost";
+
             break;
+
         case NSURLErrorDNSLookupFailed:
-            return [NSString stringWithFormat:@"NSURLErrorDNSLookupFailed: %d", NSURLErrorDNSLookupFailed];
+            string = @"NSURLErrorDNSLookupFailed";
+
             break;
+
         case NSURLErrorHTTPTooManyRedirects:
-            return [NSString stringWithFormat:@"NSURLErrorHTTPTooManyRedirects: %d", NSURLErrorHTTPTooManyRedirects];
+            string = @"NSURLErrorHTTPTooManyRedirects";
+
             break;
+
         case NSURLErrorResourceUnavailable:
-            return [NSString stringWithFormat:@"NSURLErrorResourceUnavailable: %d", NSURLErrorResourceUnavailable];
+            string = @"NSURLErrorResourceUnavailable";
+
             break;
+
         case NSURLErrorNotConnectedToInternet:
-            return [NSString stringWithFormat:@"NSURLErrorNotConnectedToInternet: %d", NSURLErrorNotConnectedToInternet];
+            string = @"NSURLErrorNotConnectedToInternet";
+
             break;
+
         case NSURLErrorRedirectToNonExistentLocation:
-            return [NSString stringWithFormat:@"NSURLErrorRedirectToNonExistentLocation: %d", NSURLErrorRedirectToNonExistentLocation];
+            string = @"NSURLErrorRedirectToNonExistentLocation";
+
             break;
+
         case NSURLErrorBadServerResponse:
-            return [NSString stringWithFormat:@"NSURLErrorBadServerResponse: %d", NSURLErrorBadServerResponse];
+            string = @"NSURLErrorBadServerResponse";
+
             break;
+
         case NSURLErrorUserCancelledAuthentication:
-            return [NSString stringWithFormat:@"NSURLErrorUserCancelledAuthentication: %d", NSURLErrorUserCancelledAuthentication];
+            string = @"NSURLErrorUserCancelledAuthentication";
+
             break;
+
         case NSURLErrorUserAuthenticationRequired:
-            return [NSString stringWithFormat:@"NSURLErrorUserAuthenticationRequired: %d", NSURLErrorUserAuthenticationRequired];
+            string = @"NSURLErrorUserAuthenticationRequired";
+
             break;
+
         case NSURLErrorZeroByteResource:
-            return [NSString stringWithFormat:@"NSURLErrorZeroByteResource: %d", NSURLErrorZeroByteResource];
+            string = @"NSURLErrorZeroByteResource";
+
             break;
+
         case NSURLErrorCannotDecodeRawData:
-            return [NSString stringWithFormat:@"NSURLErrorCannotDecodeRawData: %d", NSURLErrorCannotDecodeRawData];
+            string = @"NSURLErrorCannotDecodeRawData";
+
             break;
+
         case NSURLErrorCannotDecodeContentData:
-            return [NSString stringWithFormat:@"NSURLErrorCannotDecodeContentData: %d", NSURLErrorCannotDecodeContentData];
+            string = @"NSURLErrorCannotDecodeContentData";
+
             break;
+
         case NSURLErrorCannotParseResponse:
-            return [NSString stringWithFormat:@"NSURLErrorCannotParseResponse: %d", NSURLErrorCannotParseResponse];
+            string = @"NSURLErrorCannotParseResponse";
+
             break;
+
         case NSURLErrorFileIsDirectory:
-            return [NSString stringWithFormat:@"NSURLErrorFileIsDirectory: %d", NSURLErrorFileIsDirectory];
+            string = @"NSURLErrorFileIsDirectory";
+
             break;
+
         case NSURLErrorFileDoesNotExist:
-            return [NSString stringWithFormat:@"NSURLErrorFileDoesNotExist: %d", NSURLErrorFileDoesNotExist];
+            string = @"NSURLErrorFileDoesNotExist";
+
             break;
+
         case NSURLErrorNoPermissionsToReadFile:
-            return [NSString stringWithFormat:@"NSURLErrorNoPermissionsToReadFile: %d", NSURLErrorNoPermissionsToReadFile];
+            string = @"NSURLErrorNoPermissionsToReadFile";
+            
             break;
+            
         case NSURLErrorDataLengthExceedsMaximum:
-            return [NSString stringWithFormat:@"NSURLErrorDataLengthExceedsMaximum: %d", NSURLErrorDataLengthExceedsMaximum];
+            string = @"NSURLErrorDataLengthExceedsMaximum";
+            
             break;
+            
         default:
+            string = @"NSURLErrorUnknown";
+            
             break;
     }
-
-    return [NSString stringWithFormat:@"NSURLError unknown code: %d", status];
+    
+    return [NSString stringWithFormat:@"%@ %d", string, error.code];
 }
 
 static inline void NSLogNSURLError(int status) {
