@@ -8,11 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSOrderedSet (Core)
+#import "OrderedCollection.h"
 
-@property (readonly) NSUInteger lastIndex;
-
-@property (readonly) BOOL isEmpty;
-@property (readonly) BOOL isNotEmpty;
-
+@interface NSOrderedSet (Core) <NSOrderedCollection>
 @end

@@ -6,7 +6,7 @@ SPEC_BEGIN(NSOrderedSet_Core_Spec)
 
 describe(@"NSOrderedSet/Core", ^{
     describe(@"-[NSOrderedSet lastIndex]", ^{
-        it(@"", ^{
+        it(@"", ^{            
             NSOrderedSet *emptyOrderedSet = [NSOrderedSet orderedSet];
 
             [[theValue(emptyOrderedSet.lastIndex) should] equal:@(NSNotFound)];
@@ -27,6 +27,16 @@ describe(@"NSOrderedSet/Core", ^{
 
             NSOrderedSet *nonEmptyOrderedSet = [NSOrderedSet orderedSetWithObject:@(1)];
             [[theValue([nonEmptyOrderedSet isNotEmpty]) should] beYes];
+        });
+    });
+
+    describe(@"-[NSOrderedSet count]", ^{
+        it(@"", ^{
+            NSOrderedSet *emptyOrderedSet = [NSOrderedSet orderedSet];
+            [[theValue([emptyOrderedSet count]) should] equal:@(0)];
+
+            NSOrderedSet *nonEmptyOrderedSet = [NSOrderedSet orderedSetWithObject:@(1)];
+            [[theValue([nonEmptyOrderedSet count]) should] equal:@(1)];
         });
     });
 });

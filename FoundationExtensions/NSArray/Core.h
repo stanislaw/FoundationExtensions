@@ -8,14 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
+#import "UnorderedCollection.h"
+#import "OrderedCollection.h"
+
 BOOL NSArrayIsArrayAndNotEmpty(id object);
 
-@interface NSArray (Core)
-
-@property (readonly) id firstObject;
-@property (readonly) NSUInteger lastIndex;
-
-@property (readonly) BOOL isEmpty;
-@property (readonly) BOOL isNotEmpty;
-
+@interface NSArray (Core) <NSOrderedCollection>
 @end

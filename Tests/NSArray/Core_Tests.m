@@ -35,8 +35,9 @@ describe(@"NSArray/Core", ^{
             array = @[];
             [array.firstObject shouldBeNil];
 
-            array = @[@1];
-            [[array.firstObject should] equal:@(1)];
+            array = @[@3, @2, @1];
+            [[array.firstObject should] equal:@(3)];
+            NSLog(@"WTF %@", array.firstObject);
 
             array = @[@1, @2, @3];
             [[array.firstObject should] equal:@(1)];

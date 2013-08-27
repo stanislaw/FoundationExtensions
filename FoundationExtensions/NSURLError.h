@@ -134,6 +134,6 @@ static inline NSString * NSStringForNSURLError(NSError *error) {
     return [NSString stringWithFormat:@"%@ %d", string, error.code];
 }
 
-static inline void NSLogNSURLError(int status) {
-    NSLog(@"%@", NSStringForNSURLError(status));
+static inline void NSLogNSURLError(NSError *error) {
+    NSLog(@"%@", NSStringForNSURLError(error));
 }
