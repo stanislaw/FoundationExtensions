@@ -5,7 +5,6 @@
 SPEC_BEGIN(NSDictionary_Spec)
 
 describe(@"NSDictionary/Inversion", ^{
-
     describe(@"-[NSDictionary inversedDictionaryFromDictionary]", ^{
         it(@"", ^{
             NSDictionary *dictionary, *inversedDictionary;
@@ -32,6 +31,20 @@ describe(@"NSDictionary/Inversion", ^{
 
             equality = [inversedDictionary isEqualToDictionary:@{ @3: @[@1, @2], @2: @1, @1: @1, @5: @2, @7: @2 }];
             [[theValue(equality) should] beYes];
+        });
+    });
+});
+
+describe(@"NSDictionary/URL", ^{
+    describe(@"-[NSDictionary stringFromQueryComponents]", ^{
+        it(@"should return a string from query components", ^{
+            NSString *queryComponentsString = @"docid=-7246927612831078230&hl=en";
+            NSDictionary *queryComponents = @{
+                @"docid": @"-7246927612831078230",
+                @"hl": @"en"
+            };
+
+            [[queryComponents.stringFromQueryComponents should] equal:queryComponentsString];
         });
     });
 });

@@ -12,3 +12,4 @@
 #import "NSString/Concatenation.h"
 #import "NSString/Core.h"
 #import "NSString/RegularExpressions.h"
+#import "NSString/URL.h"

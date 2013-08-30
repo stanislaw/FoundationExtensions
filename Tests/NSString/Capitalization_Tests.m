@@ -2,7 +2,7 @@
 
 #import "NSString.h"
 
-SPEC_BEGIN(NSString_Spec)
+SPEC_BEGIN(NSString_Capitalization_Specs)
 
 describe(@"NSString/Capitalization", ^{
 
