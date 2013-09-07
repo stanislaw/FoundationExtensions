@@ -14,6 +14,6 @@ dispatch_block_t recursiveBlock(void (^block)(dispatch_block_t recurse));
 @interface NSObject (Blocks)
 
 - (instancetype)initWithBlock:(void(^)(id))block;
-- (instancetype)performBlock:(void(^)(id))block;
+- (instancetype)performBlockOnReceiver:(void(^)(id))block;
 
 @end

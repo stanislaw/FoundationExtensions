@@ -24,7 +24,7 @@ dispatch_block_t recursiveBlock(void (^block)(dispatch_block_t recurse)) {
     return self;
 }
 
-- (instancetype)performBlock:(void(^)(id))block {
+- (instancetype)performBlockOnReceiver:(void(^)(id))block {
     if (block) block(self);
 
     return self;
