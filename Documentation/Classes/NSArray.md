@@ -34,6 +34,30 @@ id firstObject = @[ @(3), @(2), @(1) ].firstObject; // @(3)
 
 ### <a name="Flattening"></a> Flattening
 
+###### flattenedArray
+
+`- (NSArray *)flattenedArray`
+
+```objective-c
+NSArray *flattenedArray;
+flattenedArray = [@[] flattenedArray]; // @[]
+flattenedArray = [@[ @(1), @(2), @(3) ] flattenedArray]; // @[ @(1), @(2), @(3) ]
+flattenedArray = [@[ @(1), @[ @(2), @(3)] ] flattenedArray]; // @[ @(1), @(2), @(3) ]
+flattenedArray = [@[ @(1), @[ @[ @(2), @(3)] ] ] flattenedArray]; // @[ @(1), @[ @(2), @(3) ] ]
+```
+
+###### recursivelyFlattenedArray
+
+`- (NSArray *)recursivelyFlattenedArray`
+
+```objective-c
+NSArray *recursivelyFlattenedArray;
+recursivelyFlattenedArray = [@[] recursivelyFlattenedArray]; // @[]
+recursivelyFlattenedArray = [@[ @(1), @(2), @(3) ] recursivelyFlattenedArray]; // @[ @(1), @(2), @(3) ]
+recursivelyFlattenedArray = [@[ @(1), @[ @(2), @(3)] ] recursivelyFlattenedArray]; // @[ @(1), @(2), @(3) ]
+recursivelyFlattenedArray = [@[ @(1), @[ @[ @(2), @(3)] ] ] recursivelyFlattenedArray]; // @[ @(1), @(2), @(3) ]
+```
+
 ### <a name="Mapping"></a> Mapping
 
 ### <a name="Querying"></a> Querying
