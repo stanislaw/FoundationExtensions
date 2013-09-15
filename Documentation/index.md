@@ -7,4 +7,13 @@
     * [Flattening](Classes/NSArray.md#Flattening)
     * [Mapping](Classes/NSArray.md#Mapping)
     * [Querying](Classes/NSArray.md#Querying)
-    
+
+* NSDictionary
+* NSIndexSet
+* NSObject
+* NSOrderedSet
+* NSRange
+* NSSet
+* NSString
+* NSURL
+* NSURLError
