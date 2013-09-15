@@ -49,11 +49,11 @@ you import the "extension" pack
 
 Just browse through the `FoundationExtensions/` folder contents - it is pretty clear, and it is cool.
 
-## Status 2013.06.05
+## Status 2013.09.16
 
-The project is in a setup phase. If you liked the idea, feel free to suggest your extensions that you use in your daily programming routine - I will be happy to merge any code that address the scope of this general purpose extensions framework.
+The project is in a setup phase. If you liked the idea, feel free to suggest your extensions that you use in your daily programming routine - I will be happy to merge any code that address the scope of this general purpose framework of Foundation extensions.
 
-More documentation is coming.
+More documentation [is coming](https://github.com/stanislaw/FoundationExtensions/blob/master/Documentation/index.md).
 
 ## Installation
 
