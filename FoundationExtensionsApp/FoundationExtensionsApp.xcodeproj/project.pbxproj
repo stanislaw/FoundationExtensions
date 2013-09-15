@@ -112,7 +112,6 @@
 		8692A4EB1763F51B00BE8DB4 /* Core_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Core_Tests.m; sourceTree = "<group>"; };
 		8692A4ED1763F53700BE8DB4 /* Querying_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Querying_Tests.m; sourceTree = "<group>"; };
 		8692A4F01763F5B600BE8DB4 /* NSRange_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSRange_Tests.m; path = NSRange/NSRange_Tests.m; sourceTree = "<group>"; };
-		8692A4F21764049800BE8DB4 /* NSRunLoop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSRunLoop.h; sourceTree = "<group>"; };
 		869ED87917963FEB002FD80E /* Inversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Inversion.h; path = NSDictionary/Inversion.h; sourceTree = "<group>"; };
 		869ED87A17963FEB002FD80E /* Inversion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Inversion.m; path = NSDictionary/Inversion.m; sourceTree = "<group>"; };
 		869ED87C179645B9002FD80E /* Flattening.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flattening.h; sourceTree = "<group>"; };
@@ -263,7 +262,6 @@
 				8626A186175EB06D00D32F79 /* NSString.h */,
 				864B2430175F316A001DED90 /* NSURLError.h */,
 				864B2431175F31E3001DED90 /* FoundationsExtensions.h */,
-				8692A4F21764049800BE8DB4 /* NSRunLoop.h */,
 				869ED88217964A5D002FD80E /* NSDictionary.h */,
 				8664A6A317B3D83B002BC71B /* NSOrderedSet.h */,
 				861F362917CC3DED0028D579 /* NSSet.h */,
