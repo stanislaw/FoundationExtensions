@@ -1,4 +1,4 @@
-# NSArray
+# FoundationExtensions/NSArray
 
 ### <a name="Core"></a> Core
 
