@@ -60,4 +60,16 @@ recursivelyFlattenedArray = [@[ @(1), @[ @[ @(2), @(3)] ] ] recursivelyFlattened
 
 ### <a name="Mapping"></a> Mapping
 
+###### mapObjectsUsingBlock:
+
+`- (NSArray *)mapObjectsUsingBlock:(id(^)(id element, NSUInteger idx, BOOL *stop))block`
+
+```objective-c
+NSArray *array = @[@"s", @"s", @"s"];
+
+NSArray *mappedArray = [array mapObjectsUsingBlock:^id(NSString * element, NSUInteger idx, BOOL *stop) {
+    return [element stringByAppendingString:@"sss"];
+}]; // @[ @"ssss", @"ssss", @"ssss" ]
+```
+
 ### <a name="Querying"></a> Querying
