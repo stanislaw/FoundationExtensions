@@ -19,12 +19,11 @@
 - (id)objectPassingTest:(BOOL(^)(id obj, NSUInteger idx, BOOL *stop))predicate {
     __block id object;
 
-    [self enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
-        if (predicate(obj, idx, stop)) {
-            *stop = YES;
-            object = obj;
-        }
-    }];
+    NSUInteger indexOfObjectPassingTest = [self indexOfObjectPassingTest:predicate];
+
+    if (indexOfObjectPassingTest != NSNotFound) {
+        object = [self objectAtIndex:indexOfObjectPassingTest];
+    }
 
     return object;
 }
