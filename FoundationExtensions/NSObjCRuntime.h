@@ -22,15 +22,14 @@
 #define NSStringFromMethodForEnumType(_name, _type, _components...) static inline NSString *NSStringFrom##_name(int value) {    \
     NSArray *componentsStrings = [@(#_components) componentsSeparatedByString:@", "];    \
     \
-    int componentsCArray[NUMARGS(_components)] = { _components };    \
+    int N = NUMARGS(_components);    \
+    int componentsCArray[] = { _components };    \
     \
-    NSMutableArray *components = [NSMutableArray array];    \
-    CArrayIterate(componentsCArray, ^(int *valuePointer) {    \
-        [components addObject:@(*valuePointer)];    \
-    });    \
+    for (int i = 0; i < N; i++) {    \
+        if (componentsCArray[i] == value) return [componentsStrings objectAtIndex:i];    \
+    }    \
     \
-    NSUInteger valueIndex = [components indexOfObject:@(value)];    \
-    return [componentsStrings objectAtIndex:valueIndex];    \
+    return nil;    \
 }
 
 #endif
