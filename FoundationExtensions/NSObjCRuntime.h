@@ -34,6 +34,7 @@
     for (int i = 0; i < N; i++) {    \
         _type option = componentsCArray[i];    \
         if ((value & option) != NO || (value == 0 && option == 0)) {    \
+            NSLog(@"WULLY %d %d %d", (int)value, (int)option, (int)(value & option));    \
             NSString *optionString = [optionsStrings objectAtIndex:i];    \
             [optionsComponentsForValue addObject:optionString];    \
         }    \
