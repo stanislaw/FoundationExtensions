@@ -24,4 +24,22 @@
     return nil;    \
 }
 
+#define NSStringFromMethodForOptionsType(_name, _type, _options...) static inline NSString *NSStringFrom##_name(_type value) {    \
+    NSArray *optionsStrings = [@(#_options) componentsSeparatedByString:@", "];    \
+    NSMutableArray *optionsComponentsForValue = [NSMutableArray array];    \
+    \
+    int N = (sizeof((_type[]){0, ##_options})/sizeof(_type) - 1);    \
+    _type componentsCArray[] = { _options };    \
+    \
+    for (int i = 0; i < N; i++) {    \
+        _type option = componentsCArray[i];    \
+        if ((value & option) != NO || (value == 0 && option == 0)) {    \
+            NSString *optionString = [optionsStrings objectAtIndex:i];    \
+            [optionsComponentsForValue addObject:optionString];    \
+        }    \
+    }    \
+    \
+    return optionsComponentsForValue.count > 0 ? [optionsComponentsForValue componentsJoinedByString:@" | "] : nil;    \
+}
+
 #endif
