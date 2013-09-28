@@ -12,9 +12,9 @@ NSStringFromMethodForEnumType(kCFRunLoopRunReturnValue,
                               kCFRunLoopRunHandledSource);
                               
 NSString *returnValue;
-returnValue = NSStringFromkCFRunLoopRunReturnValue(kCFRunLoopRunFinished); // kCFRunLoopRunFinished
-returnValue = NSStringFromkCFRunLoopRunReturnValue(kCFRunLoopRunStopped); // kCFRunLoopRunStopped
-returnValue = NSStringFromkCFRunLoopRunReturnValue(kCFRunLoopRunTimedOut); // kCFRunLoopRunTimedOut
-returnValue = NSStringFromkCFRunLoopRunReturnValue(kCFRunLoopRunHandledSource); // kCFRunLoopRunHandledSource
+returnValue = NSStringFromkCFRunLoopRunReturnValue(kCFRunLoopRunFinished); // @("kCFRunLoopRunFinished")
+returnValue = NSStringFromkCFRunLoopRunReturnValue(kCFRunLoopRunStopped); // @("kCFRunLoopRunStopped")
+returnValue = NSStringFromkCFRunLoopRunReturnValue(kCFRunLoopRunTimedOut); // @("kCFRunLoopRunTimedOut")
+returnValue = NSStringFromkCFRunLoopRunReturnValue(kCFRunLoopRunHandledSource); // @("kCFRunLoopRunHandledSource")
 ```
 
