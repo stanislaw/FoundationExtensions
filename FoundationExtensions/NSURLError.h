@@ -7,6 +7,7 @@
 //
 
 NSStringFromMethodForEnumType(NSURLErrorCode,
+                              NSInteger,
 
                               NSURLErrorCancelled,
                               NSURLErrorBadURL,
@@ -30,13 +31,8 @@ NSStringFromMethodForEnumType(NSURLErrorCode,
                               NSURLErrorFileIsDirectory,
                               NSURLErrorFileDoesNotExist,
                               NSURLErrorNoPermissionsToReadFile,
-                              NSURLErrorDataLengthExceedsMaximum
-                              );
+                              NSURLErrorDataLengthExceedsMaximum);
 
-static inline NSString * NSStringForNSURLError(NSError *error) {
+static inline NSString * NSStringFromNSURLError(NSError *error) {
     return NSStringFromNSURLErrorCode(error.code);
-}
-
-static inline void NSLogNSURLError(NSError *error) {
-    NSLog(@"%@", NSStringForNSURLError(error));
 }

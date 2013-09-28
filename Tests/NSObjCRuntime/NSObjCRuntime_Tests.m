@@ -4,7 +4,7 @@
 #import "NSURLError.h"
 
 NSStringFromMethodForEnumType(kCFRunLoopRunReturnValue,
-                              NSUInteger,
+                              int,
 
                               kCFRunLoopRunFinished,
                               kCFRunLoopRunStopped,
@@ -20,8 +20,12 @@ describe(@"NSObjCRuntime.h", ^{
             [[(NSStringFromkCFRunLoopRunReturnValue(kCFRunLoopRunStopped)) should] equal:@("kCFRunLoopRunStopped")];
             [[(NSStringFromkCFRunLoopRunReturnValue(kCFRunLoopRunTimedOut)) should] equal:@("kCFRunLoopRunTimedOut")];
             [[(NSStringFromkCFRunLoopRunReturnValue(kCFRunLoopRunHandledSource)) should] equal:@("kCFRunLoopRunHandledSource")];
+        });
 
-            // NSLog(@"123123 %@", NSStringFromNS)
+        it(@"should create NSStringFrom... C functions", ^{
+            [[(NSStringFromNSURLErrorCode(NSURLErrorNotConnectedToInternet)) should] equal:@("NSURLErrorNotConnectedToInternet")];
+            [[(NSStringFromNSURLErrorCode(NSURLErrorNetworkConnectionLost)) should] equal:@("NSURLErrorNetworkConnectionLost")];
+            // etc...
         });
     });
 });
