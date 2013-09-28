@@ -75,8 +75,7 @@ or you can just clone `FoundationExtensions` and add `FoundationExtensions/` fol
 
 ## Similar tools
 
-* [ObjectiveSugar](https://github.com/mneorr/ObjectiveSugar) 
-  ObjectiveC additions for humans. Ruby style.
+* [ObjectiveSugar](https://github.com/mneorr/ObjectiveSugar) - ObjectiveC additions for humans. Ruby style.
 
 ## Copyright
 
