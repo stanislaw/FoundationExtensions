@@ -10,6 +10,7 @@
 
 * NSDictionary
 * NSIndexSet
+* [NSObjCRuntime.h](Classes/NSObjCRuntime.md)
 * NSObject
 * NSOrderedSet
 * NSRange
