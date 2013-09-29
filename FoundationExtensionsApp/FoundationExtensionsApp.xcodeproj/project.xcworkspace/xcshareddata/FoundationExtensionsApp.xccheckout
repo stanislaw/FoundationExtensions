@@ -5,7 +5,7 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>BB8B8FDD-E52E-45C2-8AC2-CEEFF6FEFD6D</string>
+	<string>D517F337-41E8-4776-9883-817A01DEA290</string>
 	<key>IDESourceControlProjectName</key>
 	<string>FoundationExtensionsApp</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
@@ -14,11 +14,11 @@
 		<string>ssh://github.com/stanislaw/FoundationExtensions.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>FoundationExtensionsApp/FoundationExtensionsApp.xcworkspace</string>
+	<string>FoundationExtensionsApp/FoundationExtensionsApp.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>2E77E0CD-46DA-45D1-9C0A-8F75B597B907</key>
-		<string>../..</string>
+		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>ssh://github.com/stanislaw/FoundationExtensions.git</string>
