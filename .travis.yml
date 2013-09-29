@@ -1,5 +1,5 @@
 language: objective-c
 before_install:
-    # - 
-script: rake test
+    - cd FoundationExtensionsApp
+script: make ci
 
