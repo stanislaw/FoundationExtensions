@@ -1,0 +1,2 @@
+test:
+	cd FoundationExtensionsApp && make

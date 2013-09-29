@@ -14,8 +14,6 @@
 		860EDA4417F7CF8F001BEEEE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 860EDA4217F7CF8F001BEEEE /* InfoPlist.strings */; };
 		860EDA4617F7CF8F001BEEEE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 860EDA4517F7CF8F001BEEEE /* main.m */; };
 		860EDA4A17F7CF8F001BEEEE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 860EDA4917F7CF8F001BEEEE /* AppDelegate.m */; };
-		860EDA4D17F7CF8F001BEEEE /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 860EDA4B17F7CF8F001BEEEE /* Main_iPhone.storyboard */; };
-		860EDA5017F7CF8F001BEEEE /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 860EDA4E17F7CF8F001BEEEE /* Main_iPad.storyboard */; };
 		860EDA5317F7CF8F001BEEEE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 860EDA5217F7CF8F001BEEEE /* ViewController.m */; };
 		860EDA5517F7CF8F001BEEEE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 860EDA5417F7CF8F001BEEEE /* Images.xcassets */; };
 		860EDA7717F7CFAF001BEEEE /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 860EDA7617F7CFAF001BEEEE /* SenTestingKit.framework */; };
@@ -75,8 +73,6 @@
 		860EDA4717F7CF8F001BEEEE /* FoundationExtensionsApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FoundationExtensionsApp-Prefix.pch"; sourceTree = "<group>"; };
 		860EDA4817F7CF8F001BEEEE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		860EDA4917F7CF8F001BEEEE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		860EDA4C17F7CF8F001BEEEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		860EDA4F17F7CF8F001BEEEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		860EDA5117F7CF8F001BEEEE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		860EDA5217F7CF8F001BEEEE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		860EDA5417F7CF8F001BEEEE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -214,8 +210,6 @@
 			children = (
 				860EDA4817F7CF8F001BEEEE /* AppDelegate.h */,
 				860EDA4917F7CF8F001BEEEE /* AppDelegate.m */,
-				860EDA4B17F7CF8F001BEEEE /* Main_iPhone.storyboard */,
-				860EDA4E17F7CF8F001BEEEE /* Main_iPad.storyboard */,
 				860EDA5117F7CF8F001BEEEE /* ViewController.h */,
 				860EDA5217F7CF8F001BEEEE /* ViewController.m */,
 				860EDA5417F7CF8F001BEEEE /* Images.xcassets */,
@@ -543,9 +537,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				860EDA5017F7CF8F001BEEEE /* Main_iPad.storyboard in Resources */,
 				860EDA5517F7CF8F001BEEEE /* Images.xcassets in Resources */,
-				860EDA4D17F7CF8F001BEEEE /* Main_iPhone.storyboard in Resources */,
 				860EDA4417F7CF8F001BEEEE /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -657,22 +649,6 @@
 				860EDA4317F7CF8F001BEEEE /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		860EDA4B17F7CF8F001BEEEE /* Main_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				860EDA4C17F7CF8F001BEEEE /* Base */,
-			);
-			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		860EDA4E17F7CF8F001BEEEE /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				860EDA4F17F7CF8F001BEEEE /* Base */,
-			);
-			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		860EDA7D17F7CFAF001BEEEE /* InfoPlist.strings */ = {
