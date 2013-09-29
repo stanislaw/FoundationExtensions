@@ -14,7 +14,6 @@ describe(@"NSURL/QueryComponents", ^{
                 @"docid": @[ @"-7246927612831078230" ],
                 @"hl": @[ @"en" ]
             };
-
             [[URL.queryComponents should] equal:queryComponents];
         });
     });
