@@ -16,4 +16,4 @@ remove_pods:
 install_pods:
 	pod install
 
-ci: install_tools remove_pods install_pods test
+ci: remove_pods install_tools install_pods test
