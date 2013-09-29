@@ -3,8 +3,7 @@ WORKSPACE=$(PROJECT_NAME).xcworkspace
 DEFAULT_SCHEME=$(PROJECT_NAME)
 
 test:
-	xctool -workspace $(WORKSPACE) -scheme $(DEFAULT_SCHEME) \
-	     	 -sdk macosx clean test
+	xctool -workspace $(WORKSPACE) -scheme $(DEFAULT_SCHEME) -sdk macosx clean test
 
 install_tools:
 	gem update cocoapods
