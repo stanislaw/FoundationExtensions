@@ -3,7 +3,8 @@ WORKSPACE=$(PROJECT_NAME).xcworkspace
 IOS_SCHEME=FoundationExtensionsApp
 
 test:
-	xcodebuild -workspace $(WORKSPACE) -scheme $(IOS_SCHEME) -sdk iphonesimulator clean test
+	xcodebuild -workspace $(WORKSPACE) -scheme $(IOS_SCHEME) \
+		         -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO clean test
 
 install_tools:
 	gem update cocoapods
