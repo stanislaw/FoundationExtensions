@@ -24,7 +24,7 @@
 		8626A180175EAF2600D32F79 /* Concatenation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8626A178175EAF2600D32F79 /* Concatenation.m */; };
 		8626A181175EAF2600D32F79 /* Core.m in Sources */ = {isa = PBXBuildFile; fileRef = 8626A17A175EAF2600D32F79 /* Core.m */; };
 		8626A182175EAF2600D32F79 /* RegularExpressions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8626A17C175EAF2600D32F79 /* RegularExpressions.m */; };
-		862B1A8217F72E87009803E6 /* NSObjCRuntime_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 862B1A8117F72E87009803E6 /* NSObjCRuntime_Tests.m */; };
+		862B1A8417F7AE31009803E6 /* NSObjCRuntime_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 862B1A8317F7AE31009803E6 /* NSObjCRuntime_Tests.m */; };
 		863DDEED17991B7A00427706 /* Mapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 863DDEEC17991B7A00427706 /* Mapping.m */; };
 		8663A63617CC214F00385D8D /* Core.m in Sources */ = {isa = PBXBuildFile; fileRef = 8663A63517CC214F00385D8D /* Core.m */; };
 		8663A63C17CC2AD000385D8D /* Capitalization_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8664A6A017B3D642002BC71B /* Capitalization_Tests.m */; };
@@ -95,7 +95,7 @@
 		8626A184175EB05000D32F79 /* NSArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSArray.h; sourceTree = "<group>"; };
 		8626A186175EB06D00D32F79 /* NSString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSString.h; sourceTree = "<group>"; };
 		862B1A7F17F72DF6009803E6 /* NSObjCRuntime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSObjCRuntime.h; sourceTree = "<group>"; };
-		862B1A8117F72E87009803E6 /* NSObjCRuntime_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSObjCRuntime_Tests.m; path = NSObjCRuntime/NSObjCRuntime_Tests.m; sourceTree = "<group>"; };
+		862B1A8317F7AE31009803E6 /* NSObjCRuntime_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSObjCRuntime_Tests.m; path = NSObjCRuntime/NSObjCRuntime_Tests.m; sourceTree = "<group>"; };
 		863DDEEB17991B7A00427706 /* Mapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mapping.h; sourceTree = "<group>"; };
 		863DDEEC17991B7A00427706 /* Mapping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mapping.m; sourceTree = "<group>"; };
 		863DDEEE17991BCB00427706 /* Mapping_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mapping_Tests.m; sourceTree = "<group>"; };
@@ -323,7 +323,7 @@
 		862B1A8017F72E6F009803E6 /* NSObjCRuntime */ = {
 			isa = PBXGroup;
 			children = (
-				862B1A8117F72E87009803E6 /* NSObjCRuntime_Tests.m */,
+				862B1A8317F7AE31009803E6 /* NSObjCRuntime_Tests.m */,
 			);
 			name = NSObjCRuntime;
 			sourceTree = "<group>";
@@ -488,7 +488,6 @@
 				8626A162175EAE9D00D32F79 /* main.m in Sources */,
 				8626A17F175EAF2600D32F79 /* Blocks.m in Sources */,
 				8626A180175EAF2600D32F79 /* Concatenation.m in Sources */,
-				862B1A8217F72E87009803E6 /* NSObjCRuntime_Tests.m in Sources */,
 				8626A181175EAF2600D32F79 /* Core.m in Sources */,
 				8626A182175EAF2600D32F79 /* RegularExpressions.m in Sources */,
 				86C7CBA1175EB3AA00FE5CEB /* Querying.m in Sources */,
@@ -507,6 +506,7 @@
 				8663A64117CC2AD000385D8D /* Flattening_Tests.m in Sources */,
 				8663A64217CC2AD000385D8D /* Mapping_Tests.m in Sources */,
 				8663A64317CC2AE800385D8D /* Core.m in Sources */,
+				862B1A8417F7AE31009803E6 /* NSObjCRuntime_Tests.m in Sources */,
 				861F362817CC3DC00028D579 /* Core_Tests.m in Sources */,
 				861F362E17CC3EDE0028D579 /* Core.m in Sources */,
 				861F363117CC3F690028D579 /* Core_Tests.m in Sources */,
