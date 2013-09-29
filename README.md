@@ -2,8 +2,6 @@
 
 `FoundationExtensions` is a collection of extensions for `Foundation` framework. It is a relative to another similar repository: [UIKitExtensions](https://github.com/stanislaw/UIKitExtensions). You may address the following features overview to the both of these projects as they share the same design principles.
 
-[![Build Status](https://travis-ci.org/stanislaw/FoundationExtensions.png?branch=master)](https://travis-ci.org/stanislaw/FoundationExtensions)
-
 ## Quick overview
 
 Here is a quick overview of features that set `FoundationExtensions` apart from many other similar collections on Github:
