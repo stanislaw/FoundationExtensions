@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/NSURLError.h>
+#import "NSObjCRuntime.h"
 
 NSStringFromMethodForEnumType(NSURLErrorCode,
                               int,
