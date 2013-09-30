@@ -6,8 +6,10 @@
 //  Copyright (c) 2013 Stanislaw Pankevich. All rights reserved.
 //
 
+#import <Foundation/NSURLError.h>
+
 NSStringFromMethodForEnumType(NSURLErrorCode,
-                              NSInteger,
+                              int,
 
                               NSURLErrorCancelled,
                               NSURLErrorBadURL,
