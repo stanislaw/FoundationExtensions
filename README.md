@@ -75,9 +75,17 @@ or you can just clone `FoundationExtensions` and add `FoundationExtensions/` fol
 
 ## Similar tools
 
-* [ObjectiveSugar](https://github.com/mneorr/ObjectiveSugar) - ObjectiveC additions for humans. Ruby style.
-* [BlocksKit](https://github.com/pandamonia/BlocksKit) - The Objective-C
-block utilities you always wish you had.
+* [ObjectiveSugar](https://github.com/mneorr/ObjectiveSugar) 
+
+> ObjectiveC additions for humans. Ruby style.
+
+* [BlocksKit](https://github.com/pandamonia/BlocksKit) 
+
+> The Objective-C block utilities you always wish you had.
+
+* [Useful-Bits](https://github.com/kevinoneill/Useful-Bits)
+
+> A Collection of Useful Cocoa and UIKit Bits.
 
 ## Copyright
 
