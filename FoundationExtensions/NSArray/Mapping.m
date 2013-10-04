@@ -1,10 +1,9 @@
+// FoundationExtensions
 //
-//  NSArray+Mapping.m
-//  FoundationExtensionsApp
+// FoundationExtensions/NSArray/Mapping.m
 //
-//  Created by Stanislaw Pankevich on 7/19/13.
-//  Copyright (c) 2013 Stanislaw Pankevich. All rights reserved.
-//
+// Copyright (c) 2013 Stanislaw Pankevich
+// Released under the MIT license
 
 #import "Mapping.h"
 

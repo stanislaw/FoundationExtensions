@@ -1,12 +1,11 @@
+// FoundationExtensions
 //
-//  NSArray+Extensions.h
-//  aaah
+// FoundationExtensions/NSArray/Core.h
 //
-//  Created by Stanislaw Pankevich on 2/24/13.
-//  Copyright (c) 2013 IProjecting. All rights reserved.
-//
+// Copyright (c) 2013 Stanislaw Pankevich
+// Released under the MIT license
 
-#import <Foundation/Foundation.h>
+#import <Foundation/NSArray.h>
 
 #import "UnorderedCollection.h"
 #import "OrderedCollection.h"

@@ -1,10 +1,10 @@
+// FoundationExtensions
 //
-//  NSArray+Extensions.m
-//  aaah
+// FoundationExtensions/NSArray/Core.m
 //
-//  Created by Stanislaw Pankevich on 2/24/13.
-//  Copyright (c) 2013 IProjecting. All rights reserved.
-//
+// Copyright (c) 2013 Stanislaw Pankevich
+// Released under the MIT license
+
 
 #import "Core.h"
 

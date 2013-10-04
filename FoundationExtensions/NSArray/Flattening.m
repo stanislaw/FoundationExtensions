@@ -1,10 +1,9 @@
+// FoundationExtensions
 //
-//  NSArray+Flattening.m
-//  FoundationExtensionsApp
+// FoundationExtensions/NSArray/Flattening.m
 //
-//  Created by Stanislaw Pankevich on 7/17/13.
-//  Copyright (c) 2013 Stanislaw Pankevich. All rights reserved.
-//
+// Copyright (c) 2013 Stanislaw Pankevich
+// Released under the MIT license
 
 #import "Flattening.h"
 
