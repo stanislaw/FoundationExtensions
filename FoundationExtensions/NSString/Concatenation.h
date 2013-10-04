@@ -1,14 +1,13 @@
+// FoundationExtensions
 //
-//  NSString+Concatenation.h
-//  aaah
+// FoundationExtensions/NSString/Concatenation.h
 //
-//  Created by Stanislaw Pankevich on 3/27/13.
-//  Copyright (c) 2013 IProjecting. All rights reserved.
-//
+// Copyright (c) 2013 Stanislaw Pankevich
+// Released under the MIT license
 //
 // http://stackoverflow.com/a/9730316/598057
 
-#import <Foundation/Foundation.h>
+#import <Foundation/NSString.h>
 
 @interface NSString (Concatenation)
 

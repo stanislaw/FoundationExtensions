@@ -1,10 +1,11 @@
+// FoundationExtensions
 //
-//  NSString+Concatenation.m
-//  aaah
+// FoundationExtensions/NSString/Concatenation.m
 //
-//  Created by Stanislaw Pankevich on 3/27/13.
-//  Copyright (c) 2013 IProjecting. All rights reserved.
+// Copyright (c) 2013 Stanislaw Pankevich
+// Released under the MIT license
 //
+// http://stackoverflow.com/a/9730316/598057
 
 #import "Concatenation.h"
 

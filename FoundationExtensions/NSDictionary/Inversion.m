@@ -1,10 +1,9 @@
+// FoundationExtensions
 //
-//  NSDictionary+Inverse.m
-//  FoundationExtensionsApp
+// FoundationExtensions/NSDictionary/Inversion.m
 //
-//  Created by Stanislaw Pankevich on 7/17/13.
-//  Copyright (c) 2013 Stanislaw Pankevich. All rights reserved.
-//
+// Copyright (c) 2013 Stanislaw Pankevich
+// Released under the MIT license
 
 #import "Inversion.h"
 #import "Flattening.h"

@@ -1,12 +1,11 @@
+// FoundationExtensions
 //
-//  OrderedCollectionProtocol.h
-//  FoundationExtensionsApp
+// FoundationExtensions/NSObject/OrderedCollection.h
 //
-//  Created by Stanislaw Pankevich on 8/27/13.
-//  Copyright (c) 2013 Stanislaw Pankevich. All rights reserved.
-//
+// Copyright (c) 2013 Stanislaw Pankevich
+// Released under the MIT license
 
-#import <Foundation/Foundation.h>
+#import <Foundation/NSObject.h>
 
 #import "UnorderedCollection.h"
 

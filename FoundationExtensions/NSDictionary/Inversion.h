@@ -1,14 +1,12 @@
+// FoundationExtensions
 //
-//  NSDictionary+Inverse.h
-//  FoundationExtensionsApp
+// FoundationExtensions/NSDictionary/Inversion.h
 //
-//  Created by Stanislaw Pankevich on 7/17/13.
-//  Copyright (c) 2013 Stanislaw Pankevich. All rights reserved.
-//
+// Copyright (c) 2013 Stanislaw Pankevich
+// Released under the MIT license
 
 // https://github.com/rubyworks/facets/blob/master/lib/core/facets/hash/inverse.rb
-
-#import <Foundation/Foundation.h>
+#import <Foundation/NSDictionary.h>
 
 @interface NSDictionary (Inversion)
 

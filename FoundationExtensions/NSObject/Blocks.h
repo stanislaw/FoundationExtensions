@@ -1,12 +1,11 @@
+// FoundationExtensions
 //
-//  NSObject+Extensions.h
-//  aaah
+// FoundationExtensions/NSObject/Blocks.h
 //
-//  Created by Stanislaw Pankevich on 2/15/13.
-//  Copyright (c) 2013 IProjecting. All rights reserved.
-//
+// Copyright (c) 2013 Stanislaw Pankevich
+// Released under the MIT license
 
-#import <Foundation/Foundation.h>
+#import <Foundation/NSObject.h>
 
 // http://stackoverflow.com/a/14730061/598057
 dispatch_block_t recursiveBlock(void (^block)(dispatch_block_t recurse));

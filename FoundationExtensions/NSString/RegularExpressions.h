@@ -1,12 +1,11 @@
+// FoundationExtensions
 //
-//  NSString+RegularExpressions.h
-//  aaah
+// FoundationExtensions/NSString/RegularExpressions.h
 //
-//  Created by Stanislaw Pankevich on 5/12/13.
-//  Copyright (c) 2013 IProjecting. All rights reserved.
-//
+// Copyright (c) 2013 Stanislaw Pankevich
+// Released under the MIT license
 
-#import <Foundation/Foundation.h>
+#import <Foundation/NSString.h>
 
 @interface NSString (RegularExpressions)
 - (BOOL)matches:(NSString *)regularExpressionString;

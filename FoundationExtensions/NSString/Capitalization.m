@@ -1,10 +1,9 @@
+// FoundationExtensions
 //
-//  NSString+Capitalization.m
-//  FoundationExtensionsApp
+// FoundationExtensions/NSString/Capitalization.m
 //
-//  Created by Stanislaw Pankevich on 8/8/13.
-//  Copyright (c) 2013 Stanislaw Pankevich. All rights reserved.
-//
+// Copyright (c) 2013 Stanislaw Pankevich
+// Released under the MIT license
 
 #import "Capitalization.h"
 

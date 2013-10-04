@@ -1,10 +1,9 @@
+// FoundationExtensions
 //
-//  NSString+Extensions.m
-//  aaah
+// FoundationExtensions/NSString/Core.m
 //
-//  Created by Stanislaw Pankevich on 12/11/12.
-//  Copyright (c) 2012 IProjecting. All rights reserved.
-//
+// Copyright (c) 2013 Stanislaw Pankevich
+// Released under the MIT license
 
 #import "Core.h"
 

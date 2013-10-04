@@ -1,15 +1,13 @@
+// FoundationExtensions
 //
-//  NSIndexSet+Core.h
-//  FoundationExtensionsApp
+// FoundationExtensions/NSIndexSet/Core.h
 //
-//  Created by Stanislaw Pankevich on 8/27/13.
-//  Copyright (c) 2013 Stanislaw Pankevich. All rights reserved.
-//
+// Copyright (c) 2013 Stanislaw Pankevich
+// Released under the MIT license
 
-#import <Foundation/Foundation.h>
+#import <Foundation/NSIndexSet.h>
 
 #import "UnorderedCollection.h"
 
 @interface NSIndexSet (Core) <NSUnorderedCollection>
-
 @end

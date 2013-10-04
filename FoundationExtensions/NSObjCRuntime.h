@@ -1,10 +1,9 @@
+// FoundationExtensions
 //
-//  NSObjCRuntime.h
-//  FoundationExtensionsApp
+// FoundationExtensions/NSObjCRuntime.h
 //
-//  Created by Stanislaw Pankevich on 9/28/13.
-//  Copyright (c) 2013 Stanislaw Pankevich. All rights reserved.
-//
+// Copyright (c) 2013 Stanislaw Pankevich
+// Released under the MIT license
 
 #ifndef FoundationExtensionsApp_NSObjCRuntime_h
 #define FoundationExtensionsApp_NSObjCRuntime_h

@@ -1,12 +1,11 @@
+// FoundationExtensions
 //
-//  NSURL+QueryComponents.h
-//  FoundationExtensionsApp
+// FoundationExtensions/URL/QueryComponents.h
 //
-//  Created by Stanislaw Pankevich on 8/30/13.
-//  Copyright (c) 2013 Stanislaw Pankevich. All rights reserved.
-//
+// Copyright (c) 2013 Stanislaw Pankevich
+// Released under the MIT license
 
-#import <Foundation/Foundation.h>
+#import <Foundation/NSURL.h>
 
 @interface NSURL (QueryComponents)
 

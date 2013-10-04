@@ -1,10 +1,9 @@
+// FoundationExtensions
 //
-//  NSIndexSet+Core.m
-//  FoundationExtensionsApp
+// FoundationExtensions/NSIndexSet/Core.m
 //
-//  Created by Stanislaw Pankevich on 8/27/13.
-//  Copyright (c) 2013 Stanislaw Pankevich. All rights reserved.
-//
+// Copyright (c) 2013 Stanislaw Pankevich
+// Released under the MIT license
 
 #import "Core.h"
 

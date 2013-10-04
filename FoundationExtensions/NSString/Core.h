@@ -1,12 +1,11 @@
+// FoundationExtensions
 //
-//  NSString+Extensions.h
-//  aaah
+// FoundationExtensions/NSString/Core.h
 //
-//  Created by Stanislaw Pankevich on 12/11/12.
-//  Copyright (c) 2012 IProjecting. All rights reserved.
-//
+// Copyright (c) 2013 Stanislaw Pankevich
+// Released under the MIT license
 
-#import <Foundation/Foundation.h>
+#import <Foundation/NSString.h>
 
 extern NSString * const NON_BREAKING_SPACE_SYMBOL;
 

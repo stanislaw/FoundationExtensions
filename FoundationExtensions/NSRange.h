@@ -1,4 +1,11 @@
-#import <Foundation/Foundation.h>
+// FoundationExtensions
+//
+// FoundationExtensions/NSRange.h
+//
+// Copyright (c) 2013 Stanislaw Pankevich
+// Released under the MIT license
+
+#import <Foundation/NSRange.h>
 
 static NSRange const NSRangeZero = {0, 0};
 

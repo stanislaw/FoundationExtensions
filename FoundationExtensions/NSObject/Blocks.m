@@ -1,10 +1,9 @@
+// FoundationExtensions
 //
-//  NSObject+Extensions.m
-//  aaah
+// FoundationExtensions/NSObject/Blocks.m
 //
-//  Created by Stanislaw Pankevich on 2/15/13.
-//  Copyright (c) 2013 IProjecting. All rights reserved.
-//
+// Copyright (c) 2013 Stanislaw Pankevich
+// Released under the MIT license
 
 #import "Blocks.h"
 

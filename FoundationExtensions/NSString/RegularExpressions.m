@@ -1,12 +1,12 @@
+// FoundationExtensions
 //
-//  NSString+RegularExpressions.m
-//  aaah
+// FoundationExtensions/NSString/RegularExpressions.m
 //
-//  Created by Stanislaw Pankevich on 5/12/13.
-//  Copyright (c) 2013 IProjecting. All rights reserved.
-//
+// Copyright (c) 2013 Stanislaw Pankevich
+// Released under the MIT license
 
 #import "RegularExpressions.h"
+#import <Foundation/NSRegularExpression.h>
 
 @implementation NSString (RegularExpressions)
 
