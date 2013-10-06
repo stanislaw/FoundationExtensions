@@ -6,6 +6,7 @@
 // Released under the MIT license
 
 #import <Foundation/NSString.h>
+#import <Foundation/NSNull.h>
 
 extern NSString * const NON_BREAKING_SPACE_SYMBOL;
 

@@ -7,6 +7,8 @@
 
 #import <Foundation/NSObject.h>
 
+#import <dispatch/dispatch.h>
+
 // http://stackoverflow.com/a/14730061/598057
 dispatch_block_t recursiveBlock(void (^block)(dispatch_block_t recurse));
 

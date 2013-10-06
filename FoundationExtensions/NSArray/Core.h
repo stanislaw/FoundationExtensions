@@ -7,8 +7,8 @@
 
 #import <Foundation/NSArray.h>
 
-#import "UnorderedCollection.h"
-#import "OrderedCollection.h"
+#import "../NSObject/UnorderedCollection.h"
+#import "../NSObject/OrderedCollection.h"
 
 BOOL NSArrayIsArrayAndNotEmpty(id object);
 

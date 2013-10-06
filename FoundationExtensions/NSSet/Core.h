@@ -7,7 +7,7 @@
 
 #import <Foundation/NSSet.h>
 
-#import "UnorderedCollection.h"
+#import "../NSObject/UnorderedCollection.h"
 
 @interface NSSet (Core) <NSUnorderedCollection>
 @end

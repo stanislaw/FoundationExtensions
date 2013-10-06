@@ -7,6 +7,9 @@
 
 #import "Core.h"
 
+#import <Foundation/NSArray.h>
+#import <Foundation/NSData.h>
+
 NSString * const NON_BREAKING_SPACE_SYMBOL = @"\u00A0";
 
 @implementation NSString (Core)

@@ -7,7 +7,7 @@
 
 #import <Foundation/NSIndexSet.h>
 
-#import "UnorderedCollection.h"
+#import "../NSObject/UnorderedCollection.h"
 
 @interface NSIndexSet (Core) <NSUnorderedCollection>
 @end

@@ -7,7 +7,7 @@
 
 #import <Foundation/NSOrderedSet.h>
 
-#import "OrderedCollection.h"
+#import "../NSObject/OrderedCollection.h"
 
 @interface NSOrderedSet (Core) <NSOrderedCollection>
 @end

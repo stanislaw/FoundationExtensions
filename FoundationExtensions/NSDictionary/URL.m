@@ -8,6 +8,8 @@
 #import "URL.h"
 #import "../NSString/URL.h"
 
+#import <Foundation/NSArray.h>
+
 @implementation NSDictionary (URL)
 
 - (NSString *)stringFromQueryComponents {

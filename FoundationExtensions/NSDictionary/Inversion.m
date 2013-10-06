@@ -6,7 +6,7 @@
 // Released under the MIT license
 
 #import "Inversion.h"
-#import "Flattening.h"
+#import "../NSArray/Flattening.h"
 
 @implementation NSDictionary (Inversion)
 

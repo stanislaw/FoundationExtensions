@@ -7,6 +7,10 @@
 
 #import "URL.h"
 
+#import <Foundation/NSArray.h>
+#import <Foundation/NSURL.h>
+#import <Foundation/NSKeyValueCoding.h>
+
 @implementation NSString (URL)
 
 - (NSString *)stringByDecodingURLFormat {
