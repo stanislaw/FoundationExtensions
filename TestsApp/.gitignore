@@ -1,3 +1,5 @@
 Podfile.lock
 Pods/
 build/
+octest
+octest.dSYM/
