@@ -6,6 +6,11 @@ DIR:= $(dir $(lastword $(MAKEFILE_LIST)))
 
 test: build runtests
 
+ci: setup test
+
+setup:
+	pod install
+
 .PHONY:build
 build:
 	xcodebuild -workspace TestsApp.xcworkspace \

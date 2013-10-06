@@ -1,4 +1,4 @@
 test:
-	cd TestsApp && make
+	cd TestsApp && make ci
 
 ci: test
