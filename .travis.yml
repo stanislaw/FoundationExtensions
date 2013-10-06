@@ -1,5 +1,3 @@
 language: objective-c
-before_install:
-    - cd FoundationExtensionsApp
 script: make ci
 
