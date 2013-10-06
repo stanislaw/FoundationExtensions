@@ -55,6 +55,8 @@ The project is in a setup phase. If you liked the idea, feel free to suggest you
 
 More documentation [is coming](https://github.com/stanislaw/FoundationExtensions/blob/master/Documentation/index.md).
 
+[![Build Status](https://travis-ci.org/stanislaw/FoundationExtensions.png?branch=master)](https://travis-ci.org/stanislaw/FoundationExtensions)
+
 ## Installation
 
 The recommended way is to install via Cocoapods:
