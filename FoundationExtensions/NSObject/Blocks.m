@@ -8,7 +8,7 @@
 #import "Blocks.h"
 
 dispatch_block_t recursiveBlock(void (^block)(dispatch_block_t recurse)) {
-    return ^{ block(recursiveBlock(block)); };
+    return [^{ block(recursiveBlock(block)); } copy];
 }
 
 @implementation NSObject (Blocks)

@@ -1,2 +1,2 @@
 #import <Foundation/Foundation.h>
-#import <Kiwi/Kiwi.h>
+#import <Kiwi.h>
