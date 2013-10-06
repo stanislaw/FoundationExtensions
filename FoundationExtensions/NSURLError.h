@@ -36,5 +36,5 @@ NSStringFromMethodForEnumType(NSURLErrorCode,
                               NSURLErrorDataLengthExceedsMaximum);
 
 static inline NSString * NSStringFromNSURLError(NSError *error) {
-    return NSStringFromNSURLErrorCode(error.code);
+    return NSStringFromNSURLErrorCode((int)error.code);
 }
