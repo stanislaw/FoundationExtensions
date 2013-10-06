@@ -1,0 +1,4 @@
+
+target :TestsApp do
+  pod 'Kiwi'
+end

@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E7830AD57B040488B3C9733 /* libPods-TestsApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 375D04A4BB9341338571414C /* libPods-TestsApp.a */; };
+		864E67C7180101B300F24F3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 864E67C6180101B300F24F3A /* Foundation.framework */; };
+		864E67CA180101B300F24F3A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 864E67C9180101B300F24F3A /* main.m */; };
+		864E67CE180101B300F24F3A /* TestsApp.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 864E67CD180101B300F24F3A /* TestsApp.1 */; };
+		864E67D51801027300F24F3A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 864E67D41801027300F24F3A /* SenTestingKit.framework */; };
+		864E68261801027E00F24F3A /* Core.m in Sources */ = {isa = PBXBuildFile; fileRef = 864E67DA1801027E00F24F3A /* Core.m */; };
+		864E68271801027E00F24F3A /* Flattening.m in Sources */ = {isa = PBXBuildFile; fileRef = 864E67DC1801027E00F24F3A /* Flattening.m */; };
+		864E68281801027E00F24F3A /* Mapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 864E67DE1801027E00F24F3A /* Mapping.m */; };
+		864E68291801027E00F24F3A /* Querying.m in Sources */ = {isa = PBXBuildFile; fileRef = 864E67E01801027E00F24F3A /* Querying.m */; };
+		864E682A1801027E00F24F3A /* Inversion.m in Sources */ = {isa = PBXBuildFile; fileRef = 864E67E41801027E00F24F3A /* Inversion.m */; };
+		864E682B1801027E00F24F3A /* URL.m in Sources */ = {isa = PBXBuildFile; fileRef = 864E67E61801027E00F24F3A /* URL.m */; };
+		864E682C1801027E00F24F3A /* Core.m in Sources */ = {isa = PBXBuildFile; fileRef = 864E67EA1801027E00F24F3A /* Core.m */; };
+		864E682D1801027E00F24F3A /* Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 864E67EF1801027E00F24F3A /* Blocks.m */; };
+		864E682E1801027E00F24F3A /* Core.m in Sources */ = {isa = PBXBuildFile; fileRef = 864E67F51801027E00F24F3A /* Core.m */; };
+		864E682F1801027E00F24F3A /* Core.m in Sources */ = {isa = PBXBuildFile; fileRef = 864E67FA1801027E00F24F3A /* Core.m */; };
+		864E68301801027E00F24F3A /* Capitalization.m in Sources */ = {isa = PBXBuildFile; fileRef = 864E67FE1801027E00F24F3A /* Capitalization.m */; };
+		864E68311801027E00F24F3A /* Concatenation.m in Sources */ = {isa = PBXBuildFile; fileRef = 864E68001801027E00F24F3A /* Concatenation.m */; };
+		864E68321801027E00F24F3A /* Core.m in Sources */ = {isa = PBXBuildFile; fileRef = 864E68021801027E00F24F3A /* Core.m */; };
+		864E68331801027E00F24F3A /* RegularExpressions.m in Sources */ = {isa = PBXBuildFile; fileRef = 864E68041801027E00F24F3A /* RegularExpressions.m */; };
+		864E68341801027E00F24F3A /* URL.m in Sources */ = {isa = PBXBuildFile; fileRef = 864E68061801027E00F24F3A /* URL.m */; };
+		864E68351801027E00F24F3A /* QueryComponents.m in Sources */ = {isa = PBXBuildFile; fileRef = 864E680A1801027E00F24F3A /* QueryComponents.m */; };
+		864E68361801027E00F24F3A /* Core_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 864E680F1801027E00F24F3A /* Core_Tests.m */; };
+		864E68371801027E00F24F3A /* Flattening_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 864E68101801027E00F24F3A /* Flattening_Tests.m */; };
+		864E68381801027E00F24F3A /* Mapping_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 864E68111801027E00F24F3A /* Mapping_Tests.m */; };
+		864E68391801027E00F24F3A /* Querying_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 864E68121801027E00F24F3A /* Querying_Tests.m */; };
+		864E683A1801027E00F24F3A /* NSDictionary_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 864E68141801027E00F24F3A /* NSDictionary_Tests.m */; };
+		864E683B1801027E00F24F3A /* Core_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 864E68161801027E00F24F3A /* Core_Tests.m */; };
+		864E683C1801027E00F24F3A /* NSObjCRuntime_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 864E68181801027E00F24F3A /* NSObjCRuntime_Tests.m */; };
+		864E683D1801027E00F24F3A /* Core_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 864E681A1801027E00F24F3A /* Core_Tests.m */; };
+		864E683E1801027F00F24F3A /* NSRange_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 864E681C1801027E00F24F3A /* NSRange_Tests.m */; };
+		864E683F1801027F00F24F3A /* Core_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 864E681E1801027E00F24F3A /* Core_Tests.m */; };
+		864E68401801027F00F24F3A /* Capitalization_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 864E68201801027E00F24F3A /* Capitalization_Tests.m */; };
+		864E68411801027F00F24F3A /* Core_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 864E68211801027E00F24F3A /* Core_Tests.m */; };
+		864E68421801027F00F24F3A /* URL_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 864E68221801027E00F24F3A /* URL_Tests.m */; };
+		864E68431801027F00F24F3A /* QueryComponents_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 864E68241801027E00F24F3A /* QueryComponents_Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		864E67C1180101B300F24F3A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				864E67CE180101B300F24F3A /* TestsApp.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2EF930EE17984D94815B24D1 /* Pods-TestsApp.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestsApp.xcconfig"; path = "Pods/Pods-TestsApp.xcconfig"; sourceTree = "<group>"; };
+		375D04A4BB9341338571414C /* libPods-TestsApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestsApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		864E67C3180101B300F24F3A /* TestsApp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TestsApp; sourceTree = BUILT_PRODUCTS_DIR; };
+		864E67C6180101B300F24F3A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		864E67C9180101B300F24F3A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		864E67CC180101B300F24F3A /* TestsApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestsApp-Prefix.pch"; sourceTree = "<group>"; };
+		864E67CD180101B300F24F3A /* TestsApp.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = TestsApp.1; sourceTree = "<group>"; };
+		864E67D41801027300F24F3A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		864E67D71801027E00F24F3A /* FoundationsExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoundationsExtensions.h; sourceTree = "<group>"; };
+		864E67D91801027E00F24F3A /* Core.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Core.h; sourceTree = "<group>"; };
+		864E67DA1801027E00F24F3A /* Core.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Core.m; sourceTree = "<group>"; };
+		864E67DB1801027E00F24F3A /* Flattening.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flattening.h; sourceTree = "<group>"; };
+		864E67DC1801027E00F24F3A /* Flattening.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Flattening.m; sourceTree = "<group>"; };
+		864E67DD1801027E00F24F3A /* Mapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mapping.h; sourceTree = "<group>"; };
+		864E67DE1801027E00F24F3A /* Mapping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mapping.m; sourceTree = "<group>"; };
+		864E67DF1801027E00F24F3A /* Querying.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Querying.h; sourceTree = "<group>"; };
+		864E67E01801027E00F24F3A /* Querying.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Querying.m; sourceTree = "<group>"; };
+		864E67E11801027E00F24F3A /* NSArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSArray.h; sourceTree = "<group>"; };
+		864E67E31801027E00F24F3A /* Inversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Inversion.h; sourceTree = "<group>"; };
+		864E67E41801027E00F24F3A /* Inversion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Inversion.m; sourceTree = "<group>"; };
+		864E67E51801027E00F24F3A /* URL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URL.h; sourceTree = "<group>"; };
+		864E67E61801027E00F24F3A /* URL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URL.m; sourceTree = "<group>"; };
+		864E67E71801027E00F24F3A /* NSDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDictionary.h; sourceTree = "<group>"; };
+		864E67E91801027E00F24F3A /* Core.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Core.h; sourceTree = "<group>"; };
+		864E67EA1801027E00F24F3A /* Core.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Core.m; sourceTree = "<group>"; };
+		864E67EB1801027E00F24F3A /* NSIndexSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSIndexSet.h; sourceTree = "<group>"; };
+		864E67EC1801027E00F24F3A /* NSObjCRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSObjCRuntime.h; sourceTree = "<group>"; };
+		864E67EE1801027E00F24F3A /* Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Blocks.h; sourceTree = "<group>"; };
+		864E67EF1801027E00F24F3A /* Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Blocks.m; sourceTree = "<group>"; };
+		864E67F01801027E00F24F3A /* OrderedCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderedCollection.h; sourceTree = "<group>"; };
+		864E67F11801027E00F24F3A /* UnorderedCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnorderedCollection.h; sourceTree = "<group>"; };
+		864E67F21801027E00F24F3A /* NSObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSObject.h; sourceTree = "<group>"; };
+		864E67F41801027E00F24F3A /* Core.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Core.h; sourceTree = "<group>"; };
+		864E67F51801027E00F24F3A /* Core.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Core.m; sourceTree = "<group>"; };
+		864E67F61801027E00F24F3A /* NSOrderedSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSOrderedSet.h; sourceTree = "<group>"; };
+		864E67F71801027E00F24F3A /* NSRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSRange.h; sourceTree = "<group>"; };
+		864E67F91801027E00F24F3A /* Core.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Core.h; sourceTree = "<group>"; };
+		864E67FA1801027E00F24F3A /* Core.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Core.m; sourceTree = "<group>"; };
+		864E67FB1801027E00F24F3A /* NSSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSSet.h; sourceTree = "<group>"; };
+		864E67FD1801027E00F24F3A /* Capitalization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Capitalization.h; sourceTree = "<group>"; };
+		864E67FE1801027E00F24F3A /* Capitalization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Capitalization.m; sourceTree = "<group>"; };
+		864E67FF1801027E00F24F3A /* Concatenation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Concatenation.h; sourceTree = "<group>"; };
+		864E68001801027E00F24F3A /* Concatenation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Concatenation.m; sourceTree = "<group>"; };
+		864E68011801027E00F24F3A /* Core.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Core.h; sourceTree = "<group>"; };
+		864E68021801027E00F24F3A /* Core.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Core.m; sourceTree = "<group>"; };
+		864E68031801027E00F24F3A /* RegularExpressions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegularExpressions.h; sourceTree = "<group>"; };
+		864E68041801027E00F24F3A /* RegularExpressions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegularExpressions.m; sourceTree = "<group>"; };
+		864E68051801027E00F24F3A /* URL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URL.h; sourceTree = "<group>"; };
+		864E68061801027E00F24F3A /* URL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URL.m; sourceTree = "<group>"; };
+		864E68071801027E00F24F3A /* NSString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSString.h; sourceTree = "<group>"; };
+		864E68091801027E00F24F3A /* QueryComponents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QueryComponents.h; sourceTree = "<group>"; };
+		864E680A1801027E00F24F3A /* QueryComponents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QueryComponents.m; sourceTree = "<group>"; };
+		864E680B1801027E00F24F3A /* NSURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSURL.h; sourceTree = "<group>"; };
+		864E680C1801027E00F24F3A /* NSURLError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSURLError.h; sourceTree = "<group>"; };
+		864E680F1801027E00F24F3A /* Core_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Core_Tests.m; sourceTree = "<group>"; };
+		864E68101801027E00F24F3A /* Flattening_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Flattening_Tests.m; sourceTree = "<group>"; };
+		864E68111801027E00F24F3A /* Mapping_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mapping_Tests.m; sourceTree = "<group>"; };
+		864E68121801027E00F24F3A /* Querying_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Querying_Tests.m; sourceTree = "<group>"; };
+		864E68141801027E00F24F3A /* NSDictionary_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDictionary_Tests.m; sourceTree = "<group>"; };
+		864E68161801027E00F24F3A /* Core_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Core_Tests.m; sourceTree = "<group>"; };
+		864E68181801027E00F24F3A /* NSObjCRuntime_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSObjCRuntime_Tests.m; sourceTree = "<group>"; };
+		864E681A1801027E00F24F3A /* Core_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Core_Tests.m; sourceTree = "<group>"; };
+		864E681C1801027E00F24F3A /* NSRange_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSRange_Tests.m; sourceTree = "<group>"; };
+		864E681E1801027E00F24F3A /* Core_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Core_Tests.m; sourceTree = "<group>"; };
+		864E68201801027E00F24F3A /* Capitalization_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Capitalization_Tests.m; sourceTree = "<group>"; };
+		864E68211801027E00F24F3A /* Core_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Core_Tests.m; sourceTree = "<group>"; };
+		864E68221801027E00F24F3A /* URL_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URL_Tests.m; sourceTree = "<group>"; };
+		864E68241801027E00F24F3A /* QueryComponents_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QueryComponents_Tests.m; sourceTree = "<group>"; };
+		864E68251801027E00F24F3A /* TestHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestHelpers.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		864E67C0180101B300F24F3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				864E67D51801027300F24F3A /* SenTestingKit.framework in Frameworks */,
+				864E67C7180101B300F24F3A /* Foundation.framework in Frameworks */,
+				3E7830AD57B040488B3C9733 /* libPods-TestsApp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		864E67BA180101B300F24F3A = {
+			isa = PBXGroup;
+			children = (
+				864E67D61801027E00F24F3A /* FoundationExtensions */,
+				864E680D1801027E00F24F3A /* Tests */,
+				864E67C8180101B300F24F3A /* TestsApp */,
+				864E67C5180101B300F24F3A /* Frameworks */,
+				864E67C4180101B300F24F3A /* Products */,
+				2EF930EE17984D94815B24D1 /* Pods-TestsApp.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		864E67C4180101B300F24F3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				864E67C3180101B300F24F3A /* TestsApp */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		864E67C5180101B300F24F3A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				864E67D41801027300F24F3A /* SenTestingKit.framework */,
+				864E67C6180101B300F24F3A /* Foundation.framework */,
+				375D04A4BB9341338571414C /* libPods-TestsApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		864E67C8180101B300F24F3A /* TestsApp */ = {
+			isa = PBXGroup;
+			children = (
+				864E67C9180101B300F24F3A /* main.m */,
+				864E67CD180101B300F24F3A /* TestsApp.1 */,
+				864E67CB180101B300F24F3A /* Supporting Files */,
+			);
+			path = TestsApp;
+			sourceTree = "<group>";
+		};
+		864E67CB180101B300F24F3A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				864E67CC180101B300F24F3A /* TestsApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		864E67D61801027E00F24F3A /* FoundationExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				864E67D71801027E00F24F3A /* FoundationsExtensions.h */,
+				864E67D81801027E00F24F3A /* NSArray */,
+				864E67E11801027E00F24F3A /* NSArray.h */,
+				864E67E21801027E00F24F3A /* NSDictionary */,
+				864E67E71801027E00F24F3A /* NSDictionary.h */,
+				864E67E81801027E00F24F3A /* NSIndexSet */,
+				864E67EB1801027E00F24F3A /* NSIndexSet.h */,
+				864E67EC1801027E00F24F3A /* NSObjCRuntime.h */,
+				864E67ED1801027E00F24F3A /* NSObject */,
+				864E67F21801027E00F24F3A /* NSObject.h */,
+				864E67F31801027E00F24F3A /* NSOrderedSet */,
+				864E67F61801027E00F24F3A /* NSOrderedSet.h */,
+				864E67F71801027E00F24F3A /* NSRange.h */,
+				864E67F81801027E00F24F3A /* NSSet */,
+				864E67FB1801027E00F24F3A /* NSSet.h */,
+				864E67FC1801027E00F24F3A /* NSString */,
+				864E68071801027E00F24F3A /* NSString.h */,
+				864E68081801027E00F24F3A /* NSURL */,
+				864E680B1801027E00F24F3A /* NSURL.h */,
+				864E680C1801027E00F24F3A /* NSURLError.h */,
+			);
+			name = FoundationExtensions;
+			path = ../FoundationExtensions;
+			sourceTree = "<group>";
+		};
+		864E67D81801027E00F24F3A /* NSArray */ = {
+			isa = PBXGroup;
+			children = (
+				864E67D91801027E00F24F3A /* Core.h */,
+				864E67DA1801027E00F24F3A /* Core.m */,
+				864E67DB1801027E00F24F3A /* Flattening.h */,
+				864E67DC1801027E00F24F3A /* Flattening.m */,
+				864E67DD1801027E00F24F3A /* Mapping.h */,
+				864E67DE1801027E00F24F3A /* Mapping.m */,
+				864E67DF1801027E00F24F3A /* Querying.h */,
+				864E67E01801027E00F24F3A /* Querying.m */,
+			);
+			path = NSArray;
+			sourceTree = "<group>";
+		};
+		864E67E21801027E00F24F3A /* NSDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				864E67E31801027E00F24F3A /* Inversion.h */,
+				864E67E41801027E00F24F3A /* Inversion.m */,
+				864E67E51801027E00F24F3A /* URL.h */,
+				864E67E61801027E00F24F3A /* URL.m */,
+			);
+			path = NSDictionary;
+			sourceTree = "<group>";
+		};
+		864E67E81801027E00F24F3A /* NSIndexSet */ = {
+			isa = PBXGroup;
+			children = (
+				864E67E91801027E00F24F3A /* Core.h */,
+				864E67EA1801027E00F24F3A /* Core.m */,
+			);
+			path = NSIndexSet;
+			sourceTree = "<group>";
+		};
+		864E67ED1801027E00F24F3A /* NSObject */ = {
+			isa = PBXGroup;
+			children = (
+				864E67EE1801027E00F24F3A /* Blocks.h */,
+				864E67EF1801027E00F24F3A /* Blocks.m */,
+				864E67F01801027E00F24F3A /* OrderedCollection.h */,
+				864E67F11801027E00F24F3A /* UnorderedCollection.h */,
+			);
+			path = NSObject;
+			sourceTree = "<group>";
+		};
+		864E67F31801027E00F24F3A /* NSOrderedSet */ = {
+			isa = PBXGroup;
+			children = (
+				864E67F41801027E00F24F3A /* Core.h */,
+				864E67F51801027E00F24F3A /* Core.m */,
+			);
+			path = NSOrderedSet;
+			sourceTree = "<group>";
+		};
+		864E67F81801027E00F24F3A /* NSSet */ = {
+			isa = PBXGroup;
+			children = (
+				864E67F91801027E00F24F3A /* Core.h */,
+				864E67FA1801027E00F24F3A /* Core.m */,
+			);
+			path = NSSet;
+			sourceTree = "<group>";
+		};
+		864E67FC1801027E00F24F3A /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				864E67FD1801027E00F24F3A /* Capitalization.h */,
+				864E67FE1801027E00F24F3A /* Capitalization.m */,
+				864E67FF1801027E00F24F3A /* Concatenation.h */,
+				864E68001801027E00F24F3A /* Concatenation.m */,
+				864E68011801027E00F24F3A /* Core.h */,
+				864E68021801027E00F24F3A /* Core.m */,
+				864E68031801027E00F24F3A /* RegularExpressions.h */,
+				864E68041801027E00F24F3A /* RegularExpressions.m */,
+				864E68051801027E00F24F3A /* URL.h */,
+				864E68061801027E00F24F3A /* URL.m */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		864E68081801027E00F24F3A /* NSURL */ = {
+			isa = PBXGroup;
+			children = (
+				864E68091801027E00F24F3A /* QueryComponents.h */,
+				864E680A1801027E00F24F3A /* QueryComponents.m */,
+			);
+			path = NSURL;
+			sourceTree = "<group>";
+		};
+		864E680D1801027E00F24F3A /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				864E680E1801027E00F24F3A /* NSArray */,
+				864E68131801027E00F24F3A /* NSDictionary */,
+				864E68151801027E00F24F3A /* NSIndexSet */,
+				864E68171801027E00F24F3A /* NSObjCRuntime */,
+				864E68191801027E00F24F3A /* NSOrderedSet */,
+				864E681B1801027E00F24F3A /* NSRange */,
+				864E681D1801027E00F24F3A /* NSSet */,
+				864E681F1801027E00F24F3A /* NSString */,
+				864E68231801027E00F24F3A /* NSURL */,
+				864E68251801027E00F24F3A /* TestHelpers.h */,
+			);
+			name = Tests;
+			path = ../Tests;
+			sourceTree = "<group>";
+		};
+		864E680E1801027E00F24F3A /* NSArray */ = {
+			isa = PBXGroup;
+			children = (
+				864E680F1801027E00F24F3A /* Core_Tests.m */,
+				864E68101801027E00F24F3A /* Flattening_Tests.m */,
+				864E68111801027E00F24F3A /* Mapping_Tests.m */,
+				864E68121801027E00F24F3A /* Querying_Tests.m */,
+			);
+			path = NSArray;
+			sourceTree = "<group>";
+		};
+		864E68131801027E00F24F3A /* NSDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				864E68141801027E00F24F3A /* NSDictionary_Tests.m */,
+			);
+			path = NSDictionary;
+			sourceTree = "<group>";
+		};
+		864E68151801027E00F24F3A /* NSIndexSet */ = {
+			isa = PBXGroup;
+			children = (
+				864E68161801027E00F24F3A /* Core_Tests.m */,
+			);
+			path = NSIndexSet;
+			sourceTree = "<group>";
+		};
+		864E68171801027E00F24F3A /* NSObjCRuntime */ = {
+			isa = PBXGroup;
+			children = (
+				864E68181801027E00F24F3A /* NSObjCRuntime_Tests.m */,
+			);
+			path = NSObjCRuntime;
+			sourceTree = "<group>";
+		};
+		864E68191801027E00F24F3A /* NSOrderedSet */ = {
+			isa = PBXGroup;
+			children = (
+				864E681A1801027E00F24F3A /* Core_Tests.m */,
+			);
+			path = NSOrderedSet;
+			sourceTree = "<group>";
+		};
+		864E681B1801027E00F24F3A /* NSRange */ = {
+			isa = PBXGroup;
+			children = (
+				864E681C1801027E00F24F3A /* NSRange_Tests.m */,
+			);
+			path = NSRange;
+			sourceTree = "<group>";
+		};
+		864E681D1801027E00F24F3A /* NSSet */ = {
+			isa = PBXGroup;
+			children = (
+				864E681E1801027E00F24F3A /* Core_Tests.m */,
+			);
+			path = NSSet;
+			sourceTree = "<group>";
+		};
+		864E681F1801027E00F24F3A /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				864E68201801027E00F24F3A /* Capitalization_Tests.m */,
+				864E68211801027E00F24F3A /* Core_Tests.m */,
+				864E68221801027E00F24F3A /* URL_Tests.m */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		864E68231801027E00F24F3A /* NSURL */ = {
+			isa = PBXGroup;
+			children = (
+				864E68241801027E00F24F3A /* QueryComponents_Tests.m */,
+			);
+			path = NSURL;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		864E67C2180101B300F24F3A /* TestsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 864E67D1180101B300F24F3A /* Build configuration list for PBXNativeTarget "TestsApp" */;
+			buildPhases = (
+				745C10F369854906917A38D9 /* Check Pods Manifest.lock */,
+				864E67BF180101B300F24F3A /* Sources */,
+				864E67C0180101B300F24F3A /* Frameworks */,
+				864E67C1180101B300F24F3A /* CopyFiles */,
+				976AF78AF60245919DB15441 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestsApp;
+			productName = TestsApp;
+			productReference = 864E67C3180101B300F24F3A /* TestsApp */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		864E67BB180101B300F24F3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Stanislaw Pankevich";
+			};
+			buildConfigurationList = 864E67BE180101B300F24F3A /* Build configuration list for PBXProject "TestsApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 864E67BA180101B300F24F3A;
+			productRefGroup = 864E67C4180101B300F24F3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				864E67C2180101B300F24F3A /* TestsApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		745C10F369854906917A38D9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		976AF78AF60245919DB15441 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-TestsApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		864E67BF180101B300F24F3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				864E682E1801027E00F24F3A /* Core.m in Sources */,
+				864E683F1801027F00F24F3A /* Core_Tests.m in Sources */,
+				864E68281801027E00F24F3A /* Mapping.m in Sources */,
+				864E68371801027E00F24F3A /* Flattening_Tests.m in Sources */,
+				864E682A1801027E00F24F3A /* Inversion.m in Sources */,
+				864E68341801027E00F24F3A /* URL.m in Sources */,
+				864E682C1801027E00F24F3A /* Core.m in Sources */,
+				864E682D1801027E00F24F3A /* Blocks.m in Sources */,
+				864E68351801027E00F24F3A /* QueryComponents.m in Sources */,
+				864E683B1801027E00F24F3A /* Core_Tests.m in Sources */,
+				864E68261801027E00F24F3A /* Core.m in Sources */,
+				864E68411801027F00F24F3A /* Core_Tests.m in Sources */,
+				864E68401801027F00F24F3A /* Capitalization_Tests.m in Sources */,
+				864E68321801027E00F24F3A /* Core.m in Sources */,
+				864E683A1801027E00F24F3A /* NSDictionary_Tests.m in Sources */,
+				864E682F1801027E00F24F3A /* Core.m in Sources */,
+				864E68361801027E00F24F3A /* Core_Tests.m in Sources */,
+				864E68421801027F00F24F3A /* URL_Tests.m in Sources */,
+				864E68391801027E00F24F3A /* Querying_Tests.m in Sources */,
+				864E68431801027F00F24F3A /* QueryComponents_Tests.m in Sources */,
+				864E68381801027E00F24F3A /* Mapping_Tests.m in Sources */,
+				864E68301801027E00F24F3A /* Capitalization.m in Sources */,
+				864E682B1801027E00F24F3A /* URL.m in Sources */,
+				864E68291801027E00F24F3A /* Querying.m in Sources */,
+				864E68331801027E00F24F3A /* RegularExpressions.m in Sources */,
+				864E683E1801027F00F24F3A /* NSRange_Tests.m in Sources */,
+				864E67CA180101B300F24F3A /* main.m in Sources */,
+				864E683C1801027E00F24F3A /* NSObjCRuntime_Tests.m in Sources */,
+				864E68271801027E00F24F3A /* Flattening.m in Sources */,
+				864E68311801027E00F24F3A /* Concatenation.m in Sources */,
+				864E683D1801027E00F24F3A /* Core_Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		864E67CF180101B300F24F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		864E67D0180101B300F24F3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		864E67D2180101B300F24F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EF930EE17984D94815B24D1 /* Pods-TestsApp.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestsApp/TestsApp-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		864E67D3180101B300F24F3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EF930EE17984D94815B24D1 /* Pods-TestsApp.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestsApp/TestsApp-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		864E67BE180101B300F24F3A /* Build configuration list for PBXProject "TestsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				864E67CF180101B300F24F3A /* Debug */,
+				864E67D0180101B300F24F3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		864E67D1180101B300F24F3A /* Build configuration list for PBXNativeTarget "TestsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				864E67D2180101B300F24F3A /* Debug */,
+				864E67D3180101B300F24F3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 864E67BB180101B300F24F3A /* Project object */;
+}

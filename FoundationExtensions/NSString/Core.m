@@ -9,17 +9,6 @@
 
 NSString * const NON_BREAKING_SPACE_SYMBOL = @"\u00A0";
 
-BOOL NSStringIsStringAndNotEmpty(NSString *string) {
-    if (!string || [string isKindOfClass:NSNull.class]) return NO;
-
-    if (![string isKindOfClass:NSString.class]) return NO;
-
-    if ([string respondsToSelector:@selector(length)] && string.length > 0) return YES;
-    
-    return NO;
-}
-
-
 @implementation NSString (Core)
 
 + (id)stringWithFormat:(NSString *)format array:(NSArray *)arguments {
