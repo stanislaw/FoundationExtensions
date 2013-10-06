@@ -10,7 +10,6 @@ test: build runtests
 build:
 	xcodebuild -workspace TestsApp.xcworkspace \
 						 -scheme TestsApp \
-						 -derivedDataPath $(DIR) \
 			 			 clean \
 			       build
 
