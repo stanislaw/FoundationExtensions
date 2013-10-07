@@ -7,6 +7,8 @@
 
 #import "Core.h"
 
+#import <stdlib.h>
+
 @implementation NSOrderedSet (Core)
 
 - (BOOL)isEmpty {

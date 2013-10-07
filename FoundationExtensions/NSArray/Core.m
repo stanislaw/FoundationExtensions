@@ -8,6 +8,8 @@
 
 #import "Core.h"
 
+#import <stdlib.h>
+
 @implementation NSArray (Core)
 
 - (BOOL)isEmpty {

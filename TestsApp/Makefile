@@ -41,13 +41,13 @@ test:
 	$(build)
 	
 # Travis CI
-ci: command_line_tests
+ci: commandline_tests
 
 setup:
 	pod install
 
 # Command line tests using octest
-command_line_tests: compile octest
+commandline_tests: compile octest
 
 .PHONY:octest
 octest:
