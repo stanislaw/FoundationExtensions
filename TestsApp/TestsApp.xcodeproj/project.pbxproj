@@ -87,8 +87,6 @@
 		864E67EC1801027E00F24F3A /* NSObjCRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSObjCRuntime.h; sourceTree = "<group>"; };
 		864E67EE1801027E00F24F3A /* Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Blocks.h; sourceTree = "<group>"; };
 		864E67EF1801027E00F24F3A /* Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Blocks.m; sourceTree = "<group>"; };
-		864E67F01801027E00F24F3A /* OrderedCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderedCollection.h; sourceTree = "<group>"; };
-		864E67F11801027E00F24F3A /* UnorderedCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnorderedCollection.h; sourceTree = "<group>"; };
 		864E67F21801027E00F24F3A /* NSObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSObject.h; sourceTree = "<group>"; };
 		864E67F41801027E00F24F3A /* Core.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Core.h; sourceTree = "<group>"; };
 		864E67F51801027E00F24F3A /* Core.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Core.m; sourceTree = "<group>"; };
@@ -259,8 +257,6 @@
 			children = (
 				864E67EE1801027E00F24F3A /* Blocks.h */,
 				864E67EF1801027E00F24F3A /* Blocks.m */,
-				864E67F01801027E00F24F3A /* OrderedCollection.h */,
-				864E67F11801027E00F24F3A /* UnorderedCollection.h */,
 			);
 			path = NSObject;
 			sourceTree = "<group>";

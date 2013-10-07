@@ -75,6 +75,13 @@ pod update
 
 or you can just clone `FoundationExtensions` and add `FoundationExtensions/` folder to your project (though author have not performed any tests to check if the import paths like `FoundationsExtensions/NSObject/Blocks.h` would be resolved correctly without the magic power of Cocoapods).
 
+## Credits
+
+Thanks to the following projects here on Github:
+
+* [ObjectiveSugar](https://github.com/mneorr/ObjectiveSugar)
+  * NSArray/Core: `-[NSArray anyObject]` method [Taken directly with renaming: `sample -> anyObject`].
+
 ## Similar tools
 
 * [ObjectiveSugar](https://github.com/mneorr/ObjectiveSugar) 

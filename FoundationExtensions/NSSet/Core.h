@@ -7,7 +7,9 @@
 
 #import <Foundation/NSSet.h>
 
-#import "../NSObject/UnorderedCollection.h"
+@interface NSSet (Core)
 
-@interface NSSet (Core) <NSUnorderedCollection>
+@property (readonly) BOOL isEmpty;
+@property (readonly) BOOL isNotEmpty;
+
 @end

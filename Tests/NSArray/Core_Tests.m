@@ -14,7 +14,7 @@ describe(@"NSArray/Core", ^{
     });
 
     describe(@"-[NSArray lastIndex]", ^{
-        it(@"", ^{
+        specify(^{
             NSArray *array;
 
             array = @[];
@@ -29,7 +29,7 @@ describe(@"NSArray/Core", ^{
     });
 
     describe(@"-[NSArray firstObject]", ^{
-        it(@"", ^{
+        specify(^{
             NSArray *array;
 
             array = @[];
@@ -44,10 +44,25 @@ describe(@"NSArray/Core", ^{
     });
 
     describe(@"-[NSArray isNotEmpty]", ^{
-        it(@"", ^{
+        specify(^{
             [[theValue([@[] isNotEmpty]) should] beNo];
 
             [[theValue(([@[@1, @2, @3] isNotEmpty])) should] beYes];
+        });
+    });
+
+    describe(@"-[NSArray anyObject]", ^{
+        specify(^{
+            [[[@[] anyObject] should] beNil];
+        });
+
+        specify(^{
+            [[[@[ @(1) ] anyObject] should] equal:@(1)];
+        });
+
+        specify(^{
+            NSArray *array = @[ @(1), @(2)];
+            [[theValue([array containsObject:@(1)] || [array containsObject:@(2)]) should] beYes];
         });
     });
 });

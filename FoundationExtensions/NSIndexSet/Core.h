@@ -7,7 +7,9 @@
 
 #import <Foundation/NSIndexSet.h>
 
-#import "../NSObject/UnorderedCollection.h"
+@interface NSIndexSet (Core)
 
-@interface NSIndexSet (Core) <NSUnorderedCollection>
+@property (readonly) BOOL isEmpty;
+@property (readonly) BOOL isNotEmpty;
+
 @end

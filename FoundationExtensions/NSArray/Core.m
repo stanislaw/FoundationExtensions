@@ -8,12 +8,6 @@
 
 #import "Core.h"
 
-BOOL NSArrayIsArrayAndNotEmpty(id object) {
-    if (object == nil || [object isKindOfClass:[NSArray class]] == NO) return NO;
-
-    return ((NSArray *)object).isNotEmpty;
-}
-
 @implementation NSArray (Core)
 
 - (BOOL)isEmpty {
@@ -30,6 +24,13 @@ BOOL NSArrayIsArrayAndNotEmpty(id object) {
 
 - (id)firstObject {
     return self.count > 0 ? [self objectAtIndex:0] : nil;
+}
+
+- (id)anyObject {
+    if (self.count == 0) return nil;
+
+    NSUInteger index = arc4random_uniform((u_int32_t)self.count);
+    return [self objectAtIndex:index];
 }
 
 @end

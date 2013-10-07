@@ -7,7 +7,14 @@
 
 #import <Foundation/NSOrderedSet.h>
 
-#import "../NSObject/OrderedCollection.h"
+@interface NSOrderedSet (Core)
 
-@interface NSOrderedSet (Core) <NSOrderedCollection>
+- (id)firstObject;
+@property (readonly) NSUInteger lastIndex;
+
+@property (readonly) BOOL isEmpty;
+@property (readonly) BOOL isNotEmpty;
+
+- (id)anyObject;
+
 @end

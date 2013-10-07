@@ -25,4 +25,11 @@
     return self.count > 0 ? [self objectAtIndex:0] : nil;
 }
 
+- (id)anyObject {
+    if (self.count == 0) return nil;
+
+    NSUInteger index = arc4random_uniform((u_int32_t)self.count);
+    return [self objectAtIndex:index];
+}
+
 @end

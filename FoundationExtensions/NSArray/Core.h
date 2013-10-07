@@ -7,10 +7,21 @@
 
 #import <Foundation/NSArray.h>
 
-#import "../NSObject/UnorderedCollection.h"
-#import "../NSObject/OrderedCollection.h"
+@interface NSArray (Core)
 
-BOOL NSArrayIsArrayAndNotEmpty(id object);
+- (id)firstObject;
+@property (readonly) NSUInteger lastIndex;
 
-@interface NSArray (Core) <NSOrderedCollection>
+@property (readonly) BOOL isEmpty;
+@property (readonly) BOOL isNotEmpty;
+
+- (id)anyObject;
+
 @end
+
+
+static inline BOOL NSArrayIsArrayAndNotEmpty(id object) {
+    if (object == nil || [object isKindOfClass:[NSArray class]] == NO) return NO;
+
+    return ((NSArray *)object).isNotEmpty;
+}

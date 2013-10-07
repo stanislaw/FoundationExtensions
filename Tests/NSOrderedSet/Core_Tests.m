@@ -39,6 +39,24 @@ describe(@"NSOrderedSet/Core", ^{
             [[theValue([nonEmptyOrderedSet count]) should] equal:@(1)];
         });
     });
+
+    describe(@"-[NSOrderedSet anyObject]", ^{
+        specify(^{
+            NSOrderedSet *orderedSet = [NSOrderedSet orderedSet];
+            [[[orderedSet anyObject] should] beNil];
+        });
+
+        specify(^{
+            NSOrderedSet *orderedSet = [NSOrderedSet orderedSetWithObject:@(1)];
+
+            [[[orderedSet anyObject] should] equal:@(1)];
+        });
+
+        specify(^{
+            NSOrderedSet *orderedSet = [NSOrderedSet orderedSetWithObjects:@(1), @(2), nil];
+            [[theValue([orderedSet containsObject:@(1)] || [orderedSet containsObject:@(2)]) should] beYes];
+        });
+    });
 });
 
 SPEC_END
