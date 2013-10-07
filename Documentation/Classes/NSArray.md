@@ -32,6 +32,16 @@ id firstObject = @[ @(1) ].firstObject; // @(1)
 id firstObject = @[ @(3), @(2), @(1) ].firstObject; // @(3)
 ```
 
+###### anyObject
+
+`- (id)anyObject`
+
+```objective-c
+id anyObject = @[].anyObject; // nil
+id anyObject = @[ @(1) ].anyObject; // @(1)
+id anyObject = @[ @(3), @(2), @(1) ].anyObject; // object any of @(1), @(2) or @(3)
+```
+
 ### <a name="Flattening"></a> Flattening
 
 ###### flattenedArray
