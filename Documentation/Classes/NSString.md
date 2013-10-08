@@ -13,6 +13,9 @@ BOOL isNonEmptyStringEmpty = @("Non-empty string").isEmpty; // NO
 
 ### <a name="Capitalization"></a> Capitalization
 
+###### stringWithFirstLetterCapitalized
+
+`- (NSString *)stringWithFirstLetterCapitalized`
 
 ### <a name="Concatenation"></a> Concatenation
 
