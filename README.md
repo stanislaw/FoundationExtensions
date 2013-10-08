@@ -80,7 +80,7 @@ or you can just clone `FoundationExtensions` and add `FoundationExtensions/` fol
 Thanks to the following projects here on Github:
 
 * [ObjectiveSugar](https://github.com/mneorr/ObjectiveSugar)
-  * NSArray/Core: `-[NSArray anyObject]` method [Taken directly with renaming: `sample -> anyObject`].
+  * NSArray/Core: `-[NSArray anyObject]` method by @kastiglione [Taken directly from [#40](https://github.com/mneorr/ObjectiveSugar/pull/40) with renaming: `sample -> anyObject`].
 
 ## Similar tools
 
