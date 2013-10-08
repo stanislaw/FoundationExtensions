@@ -9,6 +9,6 @@
 
 @interface NSString (Capitalization)
 
-@property (readonly) NSString * stringWithFirstLetterCapitalized;
+- (NSString *)stringWithFirstLetterCapitalized;
 
 @end
