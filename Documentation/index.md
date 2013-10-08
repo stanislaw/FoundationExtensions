@@ -15,6 +15,6 @@
 * NSOrderedSet
 * NSRange
 * NSSet
-* NSString
+* [NSString](Classes/NSString.md)
 * NSURL
 * NSURLError
