@@ -22,8 +22,6 @@ describe(@"NSFileManager/Core", ^{
             fileExists = [[NSFileManager defaultManager] fileExistsAtPath:directoryPath isDirectory:NULL];
             [[theValue(fileExists) should] beYes];
 
-            NSLog(@"WTF %d %@", fileExists, NSTemporaryDirectory());
-
             [[theValue(YES) should] beYes];
 
             NSString *contentsPath1 =  [NSString stringWithFormat:@"%@%@%@", NSTemporaryDirectory(), @"tempDirectoryPath", @"/folder1/folder2/folder3"];

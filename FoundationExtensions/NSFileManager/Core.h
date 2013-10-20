@@ -1,12 +1,11 @@
+// FoundationExtensions
 //
-//  NSFileManager+Core.h
-//  TestsApp
+// FoundationExtensions/NSFileManager/Core.h
 //
-//  Created by Stanislaw Pankevich on 10/20/13.
-//  Copyright (c) 2013 Stanislaw Pankevich. All rights reserved.
-//
+// Copyright (c) 2013 Stanislaw Pankevich
+// Released under the MIT license
 
-#import <Foundation/Foundation.h>
+#import <Foundation/NSFileManager.h>
 
 @interface NSFileManager (Core)
 
