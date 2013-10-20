@@ -42,6 +42,8 @@
 		864E68411801027F00F24F3A /* Core_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 864E68211801027E00F24F3A /* Core_Tests.m */; };
 		864E68421801027F00F24F3A /* URL_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 864E68221801027E00F24F3A /* URL_Tests.m */; };
 		864E68431801027F00F24F3A /* QueryComponents_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 864E68241801027E00F24F3A /* QueryComponents_Tests.m */; };
+		86B369C81814420C0076D313 /* Core.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B369C71814420C0076D313 /* Core.m */; };
+		86B369CD1814444A0076D313 /* Core_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B369CC1814444A0076D313 /* Core_Tests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -125,6 +127,10 @@
 		864E68221801027E00F24F3A /* URL_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URL_Tests.m; sourceTree = "<group>"; };
 		864E68241801027E00F24F3A /* QueryComponents_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QueryComponents_Tests.m; sourceTree = "<group>"; };
 		864E68251801027E00F24F3A /* TestHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestHelpers.h; sourceTree = "<group>"; };
+		86B369C4181441E10076D313 /* NSFileManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSFileManager.h; sourceTree = "<group>"; };
+		86B369C61814420C0076D313 /* Core.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Core.h; path = NSFileManager/Core.h; sourceTree = "<group>"; };
+		86B369C71814420C0076D313 /* Core.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Core.m; path = NSFileManager/Core.m; sourceTree = "<group>"; };
+		86B369CC1814444A0076D313 /* Core_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Core_Tests.m; path = NSFileManager/Core_Tests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -197,6 +203,7 @@
 				864E67E11801027E00F24F3A /* NSArray.h */,
 				864E67E21801027E00F24F3A /* NSDictionary */,
 				864E67E71801027E00F24F3A /* NSDictionary.h */,
+				86B369C5181441E60076D313 /* NSFileManager */,
 				864E67E81801027E00F24F3A /* NSIndexSet */,
 				864E67EB1801027E00F24F3A /* NSIndexSet.h */,
 				864E67EC1801027E00F24F3A /* NSObjCRuntime.h */,
@@ -212,6 +219,7 @@
 				864E68081801027E00F24F3A /* NSURL */,
 				864E680B1801027E00F24F3A /* NSURL.h */,
 				864E680C1801027E00F24F3A /* NSURLError.h */,
+				86B369C4181441E10076D313 /* NSFileManager.h */,
 			);
 			name = FoundationExtensions;
 			path = ../FoundationExtensions;
@@ -308,6 +316,7 @@
 		864E680D1801027E00F24F3A /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				86B369C9181444120076D313 /* NSFileManager */,
 				864E680E1801027E00F24F3A /* NSArray */,
 				864E68131801027E00F24F3A /* NSDictionary */,
 				864E68151801027E00F24F3A /* NSIndexSet */,
@@ -400,6 +409,23 @@
 			path = NSURL;
 			sourceTree = "<group>";
 		};
+		86B369C5181441E60076D313 /* NSFileManager */ = {
+			isa = PBXGroup;
+			children = (
+				86B369C61814420C0076D313 /* Core.h */,
+				86B369C71814420C0076D313 /* Core.m */,
+			);
+			name = NSFileManager;
+			sourceTree = "<group>";
+		};
+		86B369C9181444120076D313 /* NSFileManager */ = {
+			isa = PBXGroup;
+			children = (
+				86B369CC1814444A0076D313 /* Core_Tests.m */,
+			);
+			name = NSFileManager;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -490,6 +516,7 @@
 				864E683F1801027F00F24F3A /* Core_Tests.m in Sources */,
 				864E68281801027E00F24F3A /* Mapping.m in Sources */,
 				864E68371801027E00F24F3A /* Flattening_Tests.m in Sources */,
+				86B369CD1814444A0076D313 /* Core_Tests.m in Sources */,
 				864E682A1801027E00F24F3A /* Inversion.m in Sources */,
 				864E68341801027E00F24F3A /* URL.m in Sources */,
 				864E682C1801027E00F24F3A /* Core.m in Sources */,
@@ -517,6 +544,7 @@
 				864E68271801027E00F24F3A /* Flattening.m in Sources */,
 				864E68311801027E00F24F3A /* Concatenation.m in Sources */,
 				864E683D1801027E00F24F3A /* Core_Tests.m in Sources */,
+				86B369C81814420C0076D313 /* Core.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
