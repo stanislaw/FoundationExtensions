@@ -13,7 +13,7 @@
 #define NSStringFromMethodForEnumType(_name, _type, _components...) static inline NSString *NSStringFrom##_name(_type value) {    \
     NSArray *componentsStrings = [@(#_components) componentsSeparatedByString:@", "];    \
     \
-    int N = (sizeof((_type[]){0, ##_components})/sizeof(_type) - 1);    \
+    int N = (sizeof((_type[]){0, _components})/sizeof(_type) - 1);    \
     _type componentsCArray[] = { _components };    \
     \
     for (int i = 0; i < N; i++) {    \
@@ -27,7 +27,7 @@
     NSArray *optionsStrings = [@(#_options) componentsSeparatedByString:@", "];    \
     NSMutableArray *optionsComponentsForValue = [NSMutableArray array];    \
     \
-    int N = (sizeof((_type[]){0, ##_options})/sizeof(_type) - 1);    \
+    int N = (sizeof((_type[]){0, _options})/sizeof(_type) - 1);    \
     _type componentsCArray[] = { _options };    \
     \
     for (int i = 0; i < N; i++) {    \
