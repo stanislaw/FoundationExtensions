@@ -19,9 +19,14 @@
 
 @end
 
+@interface NSMutableArray (Core)
+- (void)shuffle;
+@end
 
 static inline BOOL NSArrayIsArrayAndNotEmpty(id object) {
     if (object == nil || [object isKindOfClass:[NSArray class]] == NO) return NO;
 
     return ((NSArray *)object).isNotEmpty;
 }
+
+

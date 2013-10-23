@@ -36,3 +36,20 @@
 }
 
 @end
+
+@implementation NSMutableArray (Core)
+
+- (void)shuffle {
+    NSUInteger i = self.count;
+
+    while (i) {
+        NSUInteger randomIndex = arc4random_uniform((u_int32_t)i);
+
+        id tempObject = [self objectAtIndex:--i];
+
+        [self replaceObjectAtIndex:i withObject:[self objectAtIndex:randomIndex]];
+        [self replaceObjectAtIndex:randomIndex withObject:tempObject];
+    }
+}
+
+@end

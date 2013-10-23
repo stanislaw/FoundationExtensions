@@ -67,4 +67,21 @@ describe(@"NSArray/Core", ^{
     });
 });
 
+describe(@"NSMutableArray/Core", ^{
+    describe(@"-[NSMutableArray shuffle", ^{
+        specify(^{
+            NSMutableArray *originalArray = [NSMutableArray array];
+
+            for (int i = 0; i < 100; i++) {
+                [originalArray addObject:[NSNumber numberWithInt:i]];
+            }
+
+            NSMutableArray *shuffledArray = [originalArray mutableCopy];
+            [shuffledArray shuffle];
+
+            [[[NSSet setWithArray:originalArray] should] equal:[NSSet setWithArray:shuffledArray]];
+        });
+    });
+});
+
 SPEC_END
