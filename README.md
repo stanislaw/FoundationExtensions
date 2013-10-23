@@ -35,7 +35,7 @@ Example:
 - (NSArray *)mapObjectsUsingBlock:(id(^)(id element, NSUInteger idx, BOOL *stop))block;
 ```
 
-not just `- (NSArray *)map:...` like it would if it was influenced by Ruby style i.e. its name follows naming conventions we may see established in [NSArray Class reference by Apple](https://developer.apple.com/library/ios/documentation/Cocoa/Reference/Foundation/Classes/NSArray_Class/NSArray.html)
+not just `- (NSArray *)map:...` like it would if it was influenced by Ruby style i.e. its name follows naming conventions we may see established in [NSArray Class reference by Apple](https://developer.apple.com/library/ios/documentation/Cocoa/Reference/Foundation/Classes/NSArray_Class/NSArray.html).
 
 * __Real extensions__
 
