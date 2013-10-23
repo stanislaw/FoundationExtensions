@@ -90,5 +90,5 @@ Thanks to the following projects here on Github:
 
 ## Copyright
 
-Not yet
+Copyright (c) 2013, Stanislaw Pankevich. See LICENSE for details.
 
