@@ -6,7 +6,9 @@
 
 Here is a quick overview of features that set `FoundationExtensions` apart from many other similar collections on Github:
 
-* Modularity right out of a box. Import concrete pack of extensions you need in your code, not the whole pack of unnecesarry extensions or even the whole project.
+* __Modularity out of a box__ 
+
+No umbrella packs of extensions. Import concrete pack of extensions you need in your code, not the whole pack of unnecesarry extensions or even the whole project.
 
 Example:
 
@@ -17,8 +19,13 @@ NSURL *URL = ...;
 NSDictionary *queryComponents = [URL queryComponents];
 ```
 
-* Careful naming - encouraging Objective-C style, discouraging non-Objective-C style.
-* No sugar-naming, no bringing in other programming languages style (For example, Ruby).
+* __Careful naming__ 
+
+Encouraging Objective-C style, discouraging non-Objective-C style.
+ 
+* __No sugar-naming__
+
+No bringing in other programming languages style (For example, Ruby).
 
 Example:
 
@@ -30,7 +37,9 @@ Example:
 
 not just `- (NSArray *)map:...` like it would if it was influenced by Ruby style i.e. its name follows naming conventions we may see established in [NSArray Class reference by Apple](https://developer.apple.com/library/ios/documentation/Cocoa/Reference/Foundation/Classes/NSArray_Class/NSArray.html)
 
-* Contains real extensions only: no aliasing sugar-methods, no methods that tend to be very specific.
+* __Real extensions__
+
+No aliasing sugar-methods, no methods that tend to be too much specific.
 
 ## Status 2013.10.23
 
