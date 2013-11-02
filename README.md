@@ -41,9 +41,9 @@ not just `- (NSArray *)map:...` like it would if it was influenced by Ruby style
 
 No aliasing sugar-methods, no methods that tend to be too much specific.
 
-## Status 2013.10.23
+----
 
-The project is still in a setup phase. If you liked the idea, feel free to suggest your extensions that you use in your daily programming routine - I will be happy to merge any code that address the scope of this general purpose framework of Foundation extensions.
+If you liked the idea, feel free to suggest your extensions that you use in your daily programming routine - I will be happy to merge any code that address the scope of this general purpose framework of Foundation extensions.
 
 More documentation [is coming](https://github.com/stanislaw/FoundationExtensions/blob/master/Documentation/Index.md).
 
