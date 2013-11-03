@@ -9,6 +9,7 @@
 #define FoundationExtensionsApp_NSObjCRuntime_h
 
 #import <Foundation/NSObjCRuntime.h>
+#import <Foundation/NSString.h>
 
 #define NSStringFromMethodForEnumType(_name, _type, _components...) static inline NSString *NSStringFrom##_name(_type value) {    \
     NSArray *componentsStrings = [@(#_components) componentsSeparatedByString:@", "];    \
@@ -40,5 +41,7 @@
     \
     return optionsComponentsForValue.count > 0 ? [optionsComponentsForValue componentsJoinedByString:@" | "] : nil;    \
 }
+
+#define NSSTRING_NAME_CONSTANT(name) NSString * const name = @#name
 
 #endif
