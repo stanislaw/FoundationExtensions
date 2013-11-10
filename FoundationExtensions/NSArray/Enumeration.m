@@ -1,10 +1,9 @@
+// FoundationExtensions
 //
-//  NSArray+Enumeration.m
-//  TestsApp
+// FoundationExtensions/NSArray/Enumeration.m
 //
-//  Created by Stanislaw Pankevich on 10/11/13.
-//  Copyright (c) 2013 Stanislaw Pankevich. All rights reserved.
-//
+// Copyright (c) 2013 Stanislaw Pankevich
+// Released under the MIT license
 
 #import "Enumeration.h"
 
