@@ -42,6 +42,8 @@
 		864E68411801027F00F24F3A /* Core_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 864E68211801027E00F24F3A /* Core_Tests.m */; };
 		864E68421801027F00F24F3A /* URL_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 864E68221801027E00F24F3A /* URL_Tests.m */; };
 		864E68431801027F00F24F3A /* QueryComponents_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 864E68241801027E00F24F3A /* QueryComponents_Tests.m */; };
+		86A6B417182F016B00046887 /* Enumeration.m in Sources */ = {isa = PBXBuildFile; fileRef = 86A6B416182F016B00046887 /* Enumeration.m */; };
+		86A6B419182F043B00046887 /* Enumeration_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86A6B418182F043B00046887 /* Enumeration_Tests.m */; };
 		86B369C81814420C0076D313 /* Core.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B369C71814420C0076D313 /* Core.m */; };
 		86B369CD1814444A0076D313 /* Core_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B369CC1814444A0076D313 /* Core_Tests.m */; };
 /* End PBXBuildFile section */
@@ -127,6 +129,9 @@
 		864E68221801027E00F24F3A /* URL_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URL_Tests.m; sourceTree = "<group>"; };
 		864E68241801027E00F24F3A /* QueryComponents_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QueryComponents_Tests.m; sourceTree = "<group>"; };
 		864E68251801027E00F24F3A /* TestHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestHelpers.h; sourceTree = "<group>"; };
+		86A6B415182F016B00046887 /* Enumeration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Enumeration.h; sourceTree = "<group>"; };
+		86A6B416182F016B00046887 /* Enumeration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Enumeration.m; sourceTree = "<group>"; };
+		86A6B418182F043B00046887 /* Enumeration_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Enumeration_Tests.m; sourceTree = "<group>"; };
 		86B369C4181441E10076D313 /* NSFileManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSFileManager.h; sourceTree = "<group>"; };
 		86B369C61814420C0076D313 /* Core.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Core.h; path = NSFileManager/Core.h; sourceTree = "<group>"; };
 		86B369C71814420C0076D313 /* Core.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Core.m; path = NSFileManager/Core.m; sourceTree = "<group>"; };
@@ -236,6 +241,8 @@
 				864E67DE1801027E00F24F3A /* Mapping.m */,
 				864E67DF1801027E00F24F3A /* Querying.h */,
 				864E67E01801027E00F24F3A /* Querying.m */,
+				86A6B415182F016B00046887 /* Enumeration.h */,
+				86A6B416182F016B00046887 /* Enumeration.m */,
 			);
 			path = NSArray;
 			sourceTree = "<group>";
@@ -339,6 +346,7 @@
 				864E68101801027E00F24F3A /* Flattening_Tests.m */,
 				864E68111801027E00F24F3A /* Mapping_Tests.m */,
 				864E68121801027E00F24F3A /* Querying_Tests.m */,
+				86A6B418182F043B00046887 /* Enumeration_Tests.m */,
 			);
 			path = NSArray;
 			sourceTree = "<group>";
@@ -541,7 +549,9 @@
 				864E683E1801027F00F24F3A /* NSRange_Tests.m in Sources */,
 				864E67CA180101B300F24F3A /* main.m in Sources */,
 				864E683C1801027E00F24F3A /* NSObjCRuntime_Tests.m in Sources */,
+				86A6B419182F043B00046887 /* Enumeration_Tests.m in Sources */,
 				864E68271801027E00F24F3A /* Flattening.m in Sources */,
+				86A6B417182F016B00046887 /* Enumeration.m in Sources */,
 				864E68311801027E00F24F3A /* Concatenation.m in Sources */,
 				864E683D1801027E00F24F3A /* Core_Tests.m in Sources */,
 				86B369C81814420C0076D313 /* Core.m in Sources */,
