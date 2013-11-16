@@ -15,7 +15,9 @@
     [self enumerateObjectsUsingBlock:^(id element, NSUInteger idx, BOOL *stop) {
         id mappedElement = block(element, idx, stop);
 
-        [array addObject:mappedElement];
+        if (mappedElement) {
+            [array addObject:mappedElement];
+        }
     }];
 
     return array;
