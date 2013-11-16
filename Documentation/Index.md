@@ -70,6 +70,3 @@ Just browse through the `FoundationExtensions/` folder contents - it is pretty c
 
 More documentation is coming...
 
-And for a while, you might be interested in author's original thoughts about such collections of extensions (like FoundationExtensions and UIKitExtensions)
-[here](https://github.com/genericspecific/CKUITools/pull/10#issuecomment-25709693).
- 

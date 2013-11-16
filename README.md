@@ -8,7 +8,7 @@ Here is a quick overview of features that set `FoundationExtensions` apart from 
 
 * __Modularity out of a box__ 
 
-No umbrella packs of extensions. Import concrete pack of extensions you need in your code, not the whole pack of unnecesarry extensions or even the whole project.
+No umbrella packs of extensions. Import concrete pack of extensions you need in your code, not a whole pack of unnecesarry extensions or even a whole project.
 
 Example:
 
