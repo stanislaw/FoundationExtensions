@@ -92,3 +92,7 @@ Thanks to the following projects here on Github:
 
 Copyright (c) 2013, Stanislaw Pankevich. See LICENSE for details.
 
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/stanislaw/foundationextensions/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
