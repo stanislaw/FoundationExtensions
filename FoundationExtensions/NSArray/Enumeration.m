@@ -17,8 +17,10 @@
         @throw [NSException exceptionWithName:NSGenericException reason:reason userInfo:nil];
     }
 
-    NSUInteger stridesN = objectsCount / strideSize;
-    NSUInteger lastStrideRemainder = objectsCount % strideSize;
+    ldiv_t ldivResult = ldiv(objectsCount, strideSize);
+
+    NSUInteger stridesN = ldivResult.quot;
+    NSUInteger lastStrideRemainder = ldivResult.rem;
 
     if (lastStrideRemainder > 0) {
         stridesN++;
