@@ -42,6 +42,7 @@
     return optionsComponentsForValue.count > 0 ? [optionsComponentsForValue componentsJoinedByString:@" | "] : nil;    \
 }
 
-#define NSSTRING_NAME_CONSTANT(name) NSString * const name = @#name
+#define NSSTRING_CONSTANT_HEADER(name) NSString * const name
+#define NSSTRING_CONSTANT(name) NSString * const name = @#name
 
 #endif

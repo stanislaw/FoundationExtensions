@@ -73,7 +73,7 @@ describe(@"NSObjCRuntime.h", ^{
 
     describe(@"NSSTRING_NAME_CONSTANT", ^{
         it(@"should define a constant with a given NAME and value that equals to this NAME", ^{
-            NSSTRING_NAME_CONSTANT(Constant);
+            NSSTRING_CONSTANT(Constant);
 
             [[Constant should] equal:@"Constant"];
         });
