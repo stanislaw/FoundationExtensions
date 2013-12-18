@@ -27,4 +27,12 @@
     return object;
 }
 
+- (NSUInteger)countForObject:(id)anObject {
+    NSIndexSet *indexesOfObject = [self indexesOfObjectsWithOptions:NSEnumerationConcurrent passingTest:^BOOL(id obj, NSUInteger idx, BOOL *stop) {
+        return [obj isEqual:anObject];
+    }];
+
+    return indexesOfObject.count;
+}
+
 @end
