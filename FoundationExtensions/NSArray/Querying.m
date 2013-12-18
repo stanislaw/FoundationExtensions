@@ -7,6 +7,8 @@
 
 #import "Querying.h"
 
+#import <Foundation/NSIndexSet.h>
+
 @implementation NSArray (Querying)
 
 - (NSArray *)objectsPassingTest:(BOOL(^)(id obj, NSUInteger idx, BOOL *stop))predicate {

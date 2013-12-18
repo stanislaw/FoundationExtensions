@@ -37,8 +37,8 @@ LDFLAGS=$(LIBRARIES) $(FRAMEWORKS)
 OUT=-o octest
 
 # Default
-test:
-	$(build)
+.PHONY:test
+test: commandline_tests	
 	
 # Travis CI
 ci: commandline_tests
