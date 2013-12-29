@@ -6,20 +6,20 @@
 
 [Classes](#Classes)
 
-* [NSArray](Classes/NSArray.md)
-    * [Core](Classes/NSArray.md#Core)
-    * [Flattening](Classes/NSArray.md#Flattening)
-    * [Mapping](Classes/NSArray.md#Mapping)
-    * [Querying](Classes/NSArray.md#Querying)
+* [NSArray](#NSArray)
+    * [Core](#NSArray/Core)
+    * [Flattening](#NSArray/Flattening)
+    * [Mapping](#NSArray/Mapping)
+    * [Querying](#NSArray/Querying)
 
 * NSDictionary
 * NSIndexSet
-* [NSObjCRuntime.h](Classes/NSObjCRuntime.md)
+* [NSObjCRuntime](#NSObjCRuntime)
 * NSObject
 * NSOrderedSet
 * NSRange
 * NSSet
-* [NSString](Classes/NSString.md)
+* [NSString](#NSString)
 * NSURL
 * NSURLError
 
@@ -74,9 +74,9 @@ Just browse through the `FoundationExtensions/` folder contents - it is pretty c
 
 ## Classes
 
-### FoundationExtensions/NSArray
+### NSArray
 
-#### <a name="Core"></a> Core
+#### <a name="NSArray/Core"></a> NSArray/Core
 
 ###### isEmpty
 
@@ -118,7 +118,7 @@ id anyObject = @[ @(1) ].anyObject; // @(1)
 id anyObject = @[ @(3), @(2), @(1) ].anyObject; // object any of @(1), @(2) or @(3)
 ```
 
-#### <a name="Flattening"></a> Flattening
+#### <a name="NSArray/Flattening"></a> NSArray/Flattening
 
 ###### flattenedArray
 
@@ -144,7 +144,7 @@ recursivelyFlattenedArray = [@[ @(1), @[ @(2), @(3)] ] recursivelyFlattenedArray
 recursivelyFlattenedArray = [@[ @(1), @[ @[ @(2), @(3)] ] ] recursivelyFlattenedArray]; // @[ @(1), @(2), @(3) ]
 ```
 
-#### <a name="Mapping"></a> Mapping
+#### <a name="NSArray/Mapping"></a> NSArray/Mapping
 
 ###### mapObjectsUsingBlock:
 
@@ -158,7 +158,7 @@ NSArray *mappedArray = [array mapObjectsUsingBlock:^id(NSString * element, NSUIn
 }]; // @[ @"ssss", @"ssss", @"ssss" ]
 ```
 
-#### <a name="Querying"></a> Querying
+#### <a name="NSArray/Querying"></a> NSArray/Querying
 
 ###### objectsPassingTest:
 
@@ -178,5 +178,56 @@ NSArray *objectsPassingTest = [@[ @(1), @(2), @(3)] objectsPassingTest:^BOOL(id 
 id objectPassingTest = [@[ @(1), @(2), @(3)] objectPassingTest:^BOOL(id obj, NSUInteger idx, BOOL *stop) {
     return [obj isEqual:@(1)] == NO;
 }]; // @(2)
+```
+
+### NSObjCRuntime
+
+###### NSStringFromMethodForEnumType
+
+```objective-c
+NSStringFromMethodForEnumType(kCFRunLoopRunReturnValue,
+                              int,
+
+                              kCFRunLoopRunFinished,
+                              kCFRunLoopRunStopped,
+                              kCFRunLoopRunTimedOut,
+                              kCFRunLoopRunHandledSource);
+                              
+NSString *returnValue;
+returnValue = NSStringFromkCFRunLoopRunReturnValue(kCFRunLoopRunFinished); // @("kCFRunLoopRunFinished")
+returnValue = NSStringFromkCFRunLoopRunReturnValue(kCFRunLoopRunStopped); // @("kCFRunLoopRunStopped")
+returnValue = NSStringFromkCFRunLoopRunReturnValue(kCFRunLoopRunTimedOut); // @("kCFRunLoopRunTimedOut")
+returnValue = NSStringFromkCFRunLoopRunReturnValue(kCFRunLoopRunHandledSource); // @("kCFRunLoopRunHandledSource")
+```
+
+###### NSStringFromMethodForOptionsType
+
+```objective-c
+typedef enum {
+    OPTIONS_TYPE_NONE = 0,
+    OPTIONS_TYPE_ONE   = 1 << 0,
+    OPTIONS_TYPE_TWO   = 1 << 1,
+    OPTIONS_TYPE_THREE = 1 << 2,
+    OPTIONS_TYPE_FOUR  = 1 << 3,
+    OPTIONS_TYPE_FIVE  = 1 << 4,
+    OPTIONS_TYPE_SIX   = 1 << 5
+} OPTIONS_TYPE;
+
+NSStringFromMethodForOptionsType(OPTIONS_TYPE,
+                                 NSUInteger,
+
+                                 OPTIONS_TYPE_NONE,
+                                 OPTIONS_TYPE_ONE,
+                                 OPTIONS_TYPE_TWO,
+                                 OPTIONS_TYPE_THREE,
+                                 OPTIONS_TYPE_FOUR,
+                                 OPTIONS_TYPE_FIVE,
+                                 OPTIONS_TYPE_SIX
+                                 )
+                                 
+NSString *optionsTypeString;
+optionsTypeString = NSStringFromOPTIONS_TYPE(OPTIONS_TYPE_NONE); // @("OPTIONS_TYPE_NONE")
+optionsTypeString = NSStringFromOPTIONS_TYPE(OPTIONS_TYPE_ONE | OPTIONS_TYPE_TWO); // @("OPTIONS_TYPE_ONE | OPTIONS_TYPE_TWO")
+optionsTypeString = NSStringFromOPTIONS_TYPE(OPTIONS_TYPE_ONE | OPTIONS_TYPE_TWO | OPTIONS_TYPE_THREE | OPTIONS_TYPE_FOUR); // @("OPTIONS_TYPE_ONE | OPTIONS_TYPE_TWO | OPTIONS_TYPE_THREE | OPTIONS_TYPE_FOUR") 
 ```
 
