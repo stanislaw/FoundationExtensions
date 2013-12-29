@@ -21,6 +21,10 @@
 * NSSet
 * [NSString](#NSString)
     * [Core](#NSString/Core)
+    * [Capitalization](#NSString/Capitalization)
+    * [Concatenation](#NSString/Concatenation)
+    * [RegularExpressions](#NSString/RegularExpressions)
+    * [URL](#NSString/URL)
 * NSURL
 * NSURLError
 
@@ -232,7 +236,7 @@ optionsTypeString = NSStringFromOPTIONS_TYPE(OPTIONS_TYPE_ONE | OPTIONS_TYPE_TWO
 optionsTypeString = NSStringFromOPTIONS_TYPE(OPTIONS_TYPE_ONE | OPTIONS_TYPE_TWO | OPTIONS_TYPE_THREE | OPTIONS_TYPE_FOUR); // @("OPTIONS_TYPE_ONE | OPTIONS_TYPE_TWO | OPTIONS_TYPE_THREE | OPTIONS_TYPE_FOUR") 
 ```
 
-### NSString
+### <a name="NSString"></a> NSString
 
 #### <a name="NSString/Core"></a> NSString/Core
 
