@@ -20,6 +20,7 @@
 * NSRange
 * NSSet
 * [NSString](#NSString)
+    * [Core](#NSString/Core)
 * NSURL
 * NSURLError
 
@@ -72,9 +73,9 @@ Just browse through the `FoundationExtensions/` folder contents - it is pretty c
 
 ----
 
-## Classes
+## <a name="Classes"></a> Classes
 
-### NSArray
+### <a name="NSArray"></a> NSArray
 
 #### <a name="NSArray/Core"></a> NSArray/Core
 
@@ -180,7 +181,7 @@ id objectPassingTest = [@[ @(1), @(2), @(3)] objectPassingTest:^BOOL(id obj, NSU
 }]; // @(2)
 ```
 
-### NSObjCRuntime
+### <a name="NSObjCRuntime"></a> NSObjCRuntime
 
 ###### NSStringFromMethodForEnumType
 
@@ -230,4 +231,34 @@ optionsTypeString = NSStringFromOPTIONS_TYPE(OPTIONS_TYPE_NONE); // @("OPTIONS_T
 optionsTypeString = NSStringFromOPTIONS_TYPE(OPTIONS_TYPE_ONE | OPTIONS_TYPE_TWO); // @("OPTIONS_TYPE_ONE | OPTIONS_TYPE_TWO")
 optionsTypeString = NSStringFromOPTIONS_TYPE(OPTIONS_TYPE_ONE | OPTIONS_TYPE_TWO | OPTIONS_TYPE_THREE | OPTIONS_TYPE_FOUR); // @("OPTIONS_TYPE_ONE | OPTIONS_TYPE_TWO | OPTIONS_TYPE_THREE | OPTIONS_TYPE_FOUR") 
 ```
+
+### NSString
+
+#### <a name="NSString/Core"></a> NSString/Core
+
+###### isEmpty
+
+`- (BOOL)isEmpty`
+
+```objective-c
+BOOL isEmptyStringEmpty = @("").isEmpty; // YES
+BOOL isNonEmptyStringEmpty = @("Non-empty string").isEmpty; // NO
+```
+
+#### <a name="NSString/Capitalization"></a> NSString/Capitalization
+
+###### stringWithFirstLetterCapitalized
+
+`- (NSString *)stringWithFirstLetterCapitalized`
+
+#### <a name="NSString/Concatenation"></a> Concatenation
+
+###### concat
+
+`- (NSString *)concat:(NSString *)strings, ...`
+
+#### <a name="NSString/RegularExpressions"></a> NSString/RegularExpressions
+
+### <a name="NSString/URL"></a> NSString/URL
+
 
