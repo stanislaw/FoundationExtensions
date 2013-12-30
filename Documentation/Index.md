@@ -132,7 +132,7 @@ NSArray *array = @[@(1), @(1), @(1), @(2), @(3)];
 NSUInteger countForObject;
 countForObject = [array countForObject:@(1)]; // 3
 countForObject = [array countForObject:@(2)]; // 1
-countForObject = [array countForObject:@(@"Blip!")]; // 0
+countForObject = [array countForObject:@("Blip!")]; // 0
 ```
 
 #### <a name="NSArray/Flattening"></a> NSArray/Flattening
