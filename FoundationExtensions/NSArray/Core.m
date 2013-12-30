@@ -5,10 +5,10 @@
 // Copyright (c) 2013 Stanislaw Pankevich
 // Released under the MIT license
 
-
 #import "Core.h"
 
 #import <stdlib.h>
+#import <Foundation/NSIndexSet.h>
 
 @implementation NSArray (Core)
 
@@ -33,6 +33,14 @@
 
     NSUInteger index = arc4random_uniform((u_int32_t)self.count);
     return [self objectAtIndex:index];
+}
+
+- (NSUInteger)countForObject:(id)anObject {
+    NSIndexSet *indexesOfObject = [self indexesOfObjectsWithOptions:NSEnumerationConcurrent passingTest:^BOOL(id obj, NSUInteger idx, BOOL *stop) {
+        return [obj isEqual:anObject];
+    }];
+
+    return indexesOfObject.count;
 }
 
 @end

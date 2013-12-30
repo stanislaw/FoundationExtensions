@@ -65,6 +65,17 @@ describe(@"NSArray/Core", ^{
             [[theValue([array containsObject:@(1)] || [array containsObject:@(2)]) should] beYes];
         });
     });
+
+    describe(@"-[NSArray countForObject:]", ^{
+        it(@"", ^{
+            NSArray *array = @[@(1), @(1), @(1), @(2), @(3)];
+
+            [[theValue([array countForObject:@(1)]) should] equal:@(3)];
+            [[theValue([array countForObject:@(2)]) should] equal:@(1)];
+            [[theValue([array countForObject:@(4)]) should] equal:@(0)];
+        });
+    });
+
 });
 
 describe(@"NSMutableArray/Core", ^{

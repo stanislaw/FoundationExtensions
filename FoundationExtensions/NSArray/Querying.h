@@ -12,6 +12,4 @@
 - (NSArray *)objectsPassingTest:(BOOL(^)(id obj, NSUInteger idx, BOOL *stop))predicate;
 - (id)objectPassingTest:(BOOL(^)(id obj, NSUInteger idx, BOOL *stop))predicate;
 
-- (NSUInteger)countForObject:(id)anObject;
-
 @end

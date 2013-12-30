@@ -17,6 +17,8 @@
 
 - (id)anyObject;
 
+- (NSUInteger)countForObject:(id)anObject;
+
 @end
 
 @interface NSMutableArray (Core)
