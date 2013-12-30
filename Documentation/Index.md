@@ -123,6 +123,18 @@ id anyObject = @[ @(1) ].anyObject; // @(1)
 id anyObject = @[ @(3), @(2), @(1) ].anyObject; // object any of @(1), @(2) or @(3)
 ```
 
+###### countForObject:
+
+`- (NSUInteger)countForObject:(id)anObject`
+
+```objective-c
+NSArray *array = @[@(1), @(1), @(1), @(2), @(3)];
+NSUInteger countForObject;
+countForObject = [array countForObject:@(1)]; // 3
+countForObject = [array countForObject:@(2)]; // 1
+countForObject = [array countForObject:@(@"Blip!")]; // 0
+```
+
 #### <a name="NSArray/Flattening"></a> NSArray/Flattening
 
 ###### flattenedArray
