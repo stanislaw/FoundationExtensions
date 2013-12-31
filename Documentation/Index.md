@@ -7,12 +7,15 @@
 [Classes](#Classes)
 
 * [NSArray](#NSArray)
-    * [Core](#NSArray/Core)
-    * [Flattening](#NSArray/Flattening)
-    * [Mapping](#NSArray/Mapping)
-    * [Querying](#NSArray/Querying)
+  * [Core](#NSArray/Core)
+  * [Flattening](#NSArray/Flattening)
+  * [Mapping](#NSArray/Mapping)
+  * [Querying](#NSArray/Querying)
 
-* NSDictionary
+* [NSDictionary](#NSDictionary)
+  * [Inversion](#NSDictionary/Inversion)
+  * [URL](#NSDictionary/URL)
+
 * NSIndexSet
 * [NSObjCRuntime](#NSObjCRuntime)
 * NSObject
@@ -197,6 +200,29 @@ id objectPassingTest = [@[ @(1), @(2), @(3)] objectPassingTest:^BOOL(id obj, NSU
 }]; // @(2)
 ```
 
+----
+
+### <a name="NSDictionary"></a> NSDictionary
+
+#### <a name="NSDictionary/Inversion"></a> NSDictionary/Inversion
+
+###### inversedDictionaryFromDictionary:
+
+```+ (NSDictionary *)inversedDictionaryFromDictionary:(NSDictionary *)dictionary```
+
+```objective-c
+NSDictionary *dictionary = @{ @1: @[ @3, @2, @1] };
+
+NSDictionary *inversedDictionary = [NSDictionary inversedDictionaryFromDictionary:dictionary]; // @{ @3: @1, @2: @1, @1: @1 }
+```
+
+#### <a name="NSDictionary/URL"></a> NSDictionary/URL
+
+...
+
+----
+
+```objective-c
 ### <a name="NSObjCRuntime"></a> NSObjCRuntime
 
 ###### NSStringFromMethodForEnumType
