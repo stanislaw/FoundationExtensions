@@ -26,7 +26,7 @@
     * [RegularExpressions](#NSString/RegularExpressions)
     * [URL](#NSString/URL)
 * NSURL
-* NSURLError
+* [NSURLError](#NSURLError)
 
 ## <a name="Overview"></a> Overview
 
@@ -277,4 +277,20 @@ BOOL isNonEmptyStringEmpty = @("Non-empty string").isEmpty; // NO
 
 ### <a name="NSString/URL"></a> NSString/URL
 
+----
+
+### <a name="NSURLError"></a> NSURLError
+
+###### NSStringFromNSURLError
+
+`static inline NSString *NSStringFromNSURLError(NSError *error)`
+
+```objective-c
+NSError *error = [NSError errorWithDomain:NSURLErrorDomain code:NSURLErrorTimedOut userInfo:nil];
+
+NSString *stringFromError = NSStringFromNSURLError(error); // @("NSURLErrorTimedOut")
+```
+
+
+ 
 
