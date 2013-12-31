@@ -222,7 +222,6 @@ NSDictionary *inversedDictionary = [NSDictionary inversedDictionaryFromDictionar
 
 ----
 
-```objective-c
 ### <a name="NSObjCRuntime"></a> NSObjCRuntime
 
 ###### NSStringFromMethodForEnumType
