@@ -277,6 +277,20 @@ optionsTypeString = NSStringFromOPTIONS_TYPE(OPTIONS_TYPE_ONE | OPTIONS_TYPE_TWO
 
 #### <a name="NSString/Core"></a> NSString/Core
 
+###### NSStringIsStringAndNotEmpty
+
+`static inline BOOL NSStringIsStringAndNotEmpty(NSString *string)`
+
+```objective-c
+BOOL isObjectAStringAndNotEmpty;
+isObjectAStringAndNotEmpty = NSStringIsStringAndNotEmpty(@"Non-empty string"); // YES
+isObjectAStringAndNotEmpty = NSStringIsStringAndNotEmpty(@""); // NO
+
+id object = nil;
+isObjectAStringAndNotEmpty = NSStringIsStringAndNotEmpty(object); // NO
+isObjectAStringAndNotEmpty = NSStringIsStringAndNotEmpty([NSNull null]); // NO
+```
+
 ###### isEmpty
 
 `- (BOOL)isEmpty`
