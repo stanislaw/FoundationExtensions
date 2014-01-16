@@ -13,9 +13,9 @@
 + (NSDictionary *)inversedDictionaryFromDictionary:(NSDictionary *)dictionary {
     NSMutableDictionary *newDictionary = [NSMutableDictionary dictionary];
 
-    [dictionary enumerateKeysAndObjectsUsingBlock:^(id key, id obj, BOOL *stop) {
+    [dictionary enumerateKeysAndObjectsUsingBlock:^(id key, id obj, BOOL * __unused stop) {
         if ([obj isKindOfClass:[NSArray class]]) {
-            [((NSArray *)obj)enumerateObjectsUsingBlock:^(id arrayElement, NSUInteger idx, BOOL *stop) {                
+            [((NSArray *)obj)enumerateObjectsUsingBlock:^(id arrayElement, NSUInteger __unused idx, BOOL * __unused stop) {                
                 if ([newDictionary.allKeys containsObject:arrayElement]) {
                     [newDictionary setObject:[@[ [newDictionary objectForKey:arrayElement], key] flattenedArray] forKey:arrayElement];
                 } else {

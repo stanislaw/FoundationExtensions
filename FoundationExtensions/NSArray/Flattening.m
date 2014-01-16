@@ -12,7 +12,7 @@
 - (NSArray *)flattenedArray {
     NSMutableArray *newArray = [NSMutableArray array];
 
-    [self enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
+    [self enumerateObjectsUsingBlock:^(id obj, NSUInteger __unused idx, BOOL * __unused stop) {
         if ([obj isKindOfClass:[NSArray class]]) {
             [newArray addObjectsFromArray:obj];
         } else {
@@ -26,7 +26,7 @@
 - (NSArray *)recursivelyFlattenedArray {
     NSMutableArray *newArray = [NSMutableArray array];
 
-    [self enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
+    [self enumerateObjectsUsingBlock:^(id obj, NSUInteger __unused idx, BOOL * __unused stop) {
         if ([obj isKindOfClass:[NSArray class]]) {
             [newArray addObjectsFromArray:[(NSArray *)obj recursivelyFlattenedArray]];
         } else {
